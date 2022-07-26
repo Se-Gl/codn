@@ -1,9 +1,8 @@
 ## [2.1.3](https://github.com/Se-Gl/sustainable-react/compare/v2.1.2...v2.1.3) (2022-07-26)
 
-
 ### Bug Fixes
 
-* **images:** added images path, adjusted readme ([d792a56](https://github.com/Se-Gl/sustainable-react/commit/d792a5693c95710d5356ab17d880efba07374ea1))
+- **images:** added images path, adjusted readme ([d792a56](https://github.com/Se-Gl/sustainable-react/commit/d792a5693c95710d5356ab17d880efba07374ea1))
 
 ## [2.1.2](https://github.com/Se-Gl/sustainable-react/compare/v2.1.1...v2.1.2) (2022-07-26)
 
