@@ -1,11 +1,17 @@
 import React from 'react'
 import '../../style/green.css'
 
-export function BoxPlusIcon({ width = '11', height = '20', active, iconColor = 'stroke-white' }) {
+export function BoxPlusIcon({
+  width = '11',
+  height = '20',
+  active,
+  iconColorExpanded = 'stroke-white',
+  iconColorCollapse = 'stroke-blue'
+}) {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 11 20'>
       <path
-        className={active ? iconColor : 'stroke-blue'}
+        className={active ? iconColorExpanded : iconColorCollapse}
         strokeLinecap='round'
         strokeLinejoin='round'
         strokeWidth='2'
@@ -14,11 +20,17 @@ export function BoxPlusIcon({ width = '11', height = '20', active, iconColor = '
   )
 }
 
-export function PlusIcon({ width = '17', height = '17', active, iconColor = 'stroke-blue' }) {
+export function PlusIcon({
+  width = '17',
+  height = '17',
+  active,
+  iconColorExpanded = 'stroke-blue',
+  iconColorCollapse = 'stroke-black'
+}) {
   return (
     <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 17 17'>
       <path
-        className={active ? iconColor : 'stroke-black'}
+        className={active ? iconColorExpanded : iconColorCollapse}
         strokeLinecap='round'
         strokeLinejoin='round'
         strokeWidth='2'

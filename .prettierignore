@@ -7,6 +7,7 @@ storybook-static
 .next
 .vscode
 src/style/green.css
+dist
 
 # Ignore all HTML files:
 *.html
