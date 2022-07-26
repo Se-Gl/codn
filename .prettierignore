@@ -1,0 +1,12 @@
+# Ignore artifacts:
+node_modules
+build
+coverage
+cypress
+storybook-static
+.next
+.vscode
+src/style/green.css
+
+# Ignore all HTML files:
+*.html

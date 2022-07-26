@@ -1,0 +1,23 @@
+# Ignore artifacts:
+node_modules
+build
+coverage
+storybook-static
+cypress
+.next
+.vscode
+src/components/green.css
+src
+img
+.husky
+.github
+.storybook
+
+# files
+.prettierignore
+.prettierrc.json
+CHANGELOG.md
+commitlint.config.js
+purgecss.config.js
+release.config.js
+rollup.config.js
