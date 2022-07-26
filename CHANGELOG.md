@@ -1,10 +1,16 @@
-# [2.1.0](https://github.com/Se-Gl/sustainable-react/compare/v2.0.0...v2.1.0) (2022-07-26)
+## [2.1.1](https://github.com/Se-Gl/sustainable-react/compare/v2.1.0...v2.1.1) (2022-07-26)
 
+
+### Bug Fixes
+
+* **test:** added coverage ([13d7d3f](https://github.com/Se-Gl/sustainable-react/commit/13d7d3feacf742072d29139e68bb892502f58b80))
+
+# [2.1.0](https://github.com/Se-Gl/sustainable-react/compare/v2.0.0...v2.1.0) (2022-07-26)
 
 ### Features
 
-* **test:** added accordion tests ([27e39af](https://github.com/Se-Gl/sustainable-react/commit/27e39afc193aa171b2c9951c15d8269a36aa4782))
-* **test:** added accordion tests ([ce4acfc](https://github.com/Se-Gl/sustainable-react/commit/ce4acfc66d1ad253002a17921547697de9f52708))
+- **test:** added accordion tests ([27e39af](https://github.com/Se-Gl/sustainable-react/commit/27e39afc193aa171b2c9951c15d8269a36aa4782))
+- **test:** added accordion tests ([ce4acfc](https://github.com/Se-Gl/sustainable-react/commit/ce4acfc66d1ad253002a17921547697de9f52708))
 
 # [2.0.0](https://github.com/Se-Gl/sustainable-react/compare/v1.1.1...v2.0.0) (2022-07-26)
 
