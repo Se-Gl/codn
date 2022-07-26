@@ -28,6 +28,7 @@ export function Accordion({
   }
   return (
     <div
+      id='accordion'
       role='button'
       tabIndex={0}
       className={`

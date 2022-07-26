@@ -73,11 +73,11 @@ We use semantic versioning for commit messages.
 
 For commit messages, use semantig writing:
 
-| Commit                                                                                                                  |      Usage       | Version |
-| ----------------------------------------------------------------------------------------------------------------------- | :--------------: | ------- |
-| fix(your-change): a small change, maybe just a fix                                                                      |   Fix Release    | v.0.0.1 |
-| feat(your-change): a new feature, a medium change                                                                       | Feature Release  | v.0.1.0 |
-| perf(your-change): a breaking change or hotfix \nBREAKING CHANGE: a breaking change or hotfix description in the footer | Breaking Release | v.1.0.0 |
+| Commit                                                                                       |      Usage       | Version |
+| -------------------------------------------------------------------------------------------- | :--------------: | ------- |
+| fix(your-change): a small change, p.e. fixed a component, readme or test                     |   Fix Release    | v.0.0.1 |
+| feat(your-change): a new feature, p.e. test suite for a component                            | Feature Release  | v.0.1.0 |
+| perf(your-change): a breaking change or hotfix \nBREAKING CHANGE: p.e. added a new component | Breaking Release | v.1.0.0 |
 
 Possible commit values are:
 
