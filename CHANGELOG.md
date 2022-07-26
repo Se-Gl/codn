@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/Se-Gl/sustainable-react/compare/v1.1.1...v2.0.0) (2022-07-26)
+
+### Performance Improvements
+
+- **accordion:** released first accordion version ([9b268c5](https://github.com/Se-Gl/sustainable-react/commit/9b268c52886d6ee130c9132f1f6f62a57a8abea8))
+
+### BREAKING CHANGES
+
+- **accordion:** accordion is now available
+
 ## [1.1.1](https://github.com/Se-Gl/sustainable-react/compare/v1.1.0...v1.1.1) (2022-07-26)
 
 ### Performance Improvements
