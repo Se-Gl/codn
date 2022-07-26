@@ -1,7 +1,7 @@
 # Sustainable React Components
 
 [![Prettier](https://github.com/Se-Gl/sustainable-react/actions/workflows/prettier.yml/badge.svg)](https://github.com/Se-Gl/sustainable-react/actions/workflows/prettier.yml)
-![Coverage](https://raw.githubusercontent.com/Se-Gl/sustainable-react/main/badges/badge-statements.svg)
+![Coverage](https://raw.githubusercontent.com/Se-Gl/sustainable-react/main/images/badges/badge-statements.svg)
 [![Downloads p/week](https://badgen.net/npm/dw/sustainable-react)](https://badgen.net/npm/dw/sustainable-react)
 [![NPM version](https://badgen.net/npm/v/sustainable-react)](https://badgen.net/npm/v/sustainable-react)
 [![minified + gzip](https://badgen.net/bundlephobia/minzip/sustainable-react)](https://badgen.net/bundlephobia/minzip/sustainable-react)
@@ -19,6 +19,8 @@ This is a sustainable React component project based on [greenCSS](https://github
 `npm i sustainable-react`
 
 ### How to use Accordion
+
+![Accordion preview](./images/samples/accordion-sample.gif)
 
 The example below uses greenCSS for styling. [Download greenCSS](https://www.npmjs.com/package/greencss) or learn more on the [greenCSS website](https://greencss.dev). Alternatively to greenCSS you can insert your own classNames.
 The Accordion can be operated with the keyboard (Tab / Enter) as well as clicked.

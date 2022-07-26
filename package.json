@@ -15,7 +15,7 @@
     "prepare": "husky install",
     "test": "react-scripts test --setupFiles",
     "test:coverage": "npm test -- --coverage --ci --watchAll=false --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/**/*.stories.js",
-    "test:badges": "npm run test:coverage && jest-coverage-badges --output '../../badges"
+    "test:badges": "npm run test:coverage && jest-coverage-badges --output '../../images/badges"
   },
   "repository": {
     "type": "git",
