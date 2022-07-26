@@ -1,10 +1,16 @@
-## [2.1.2](https://github.com/Se-Gl/sustainable-react/compare/v2.1.1...v2.1.2) (2022-07-26)
+## [2.1.3](https://github.com/Se-Gl/sustainable-react/compare/v2.1.2...v2.1.3) (2022-07-26)
 
 
 ### Bug Fixes
 
-* **test:** adjusted coverage badge ([b6047e0](https://github.com/Se-Gl/sustainable-react/commit/b6047e0a2ed01784929ed8e506c8ff3e0bd2e53a))
-* **test:** adjusted coverage badge ([ff83108](https://github.com/Se-Gl/sustainable-react/commit/ff8310845cde63a983a22304b20e08b990dc9d99))
+* **images:** added images path, adjusted readme ([d792a56](https://github.com/Se-Gl/sustainable-react/commit/d792a5693c95710d5356ab17d880efba07374ea1))
+
+## [2.1.2](https://github.com/Se-Gl/sustainable-react/compare/v2.1.1...v2.1.2) (2022-07-26)
+
+### Bug Fixes
+
+- **test:** adjusted coverage badge ([b6047e0](https://github.com/Se-Gl/sustainable-react/commit/b6047e0a2ed01784929ed8e506c8ff3e0bd2e53a))
+- **test:** adjusted coverage badge ([ff83108](https://github.com/Se-Gl/sustainable-react/commit/ff8310845cde63a983a22304b20e08b990dc9d99))
 
 ## [2.1.1](https://github.com/Se-Gl/sustainable-react/compare/v2.1.0...v2.1.1) (2022-07-26)
 
