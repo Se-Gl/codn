@@ -5,21 +5,28 @@ import '@testing-library/jest-dom'
 
 import { Accordion } from '../components/Accordion/Accordion'
 
+const dom = <Accordion expand='first title' collapse='first collapsed content' />
+
 it('Checks if the header renders', () => {
-  const { getByText } = render(<Accordion expand='first title' collapse='first collapsed content' />)
-  expect(getByText('first collapsed content')).toBeTruthy()
+  expect(dom).toBeTruthy()
 })
 
 it('Renders the collapsed content on click', () => {
-  const { getByText } = render(<Accordion expand='first title' collapse='first collapsed content' />)
+  const { getByText } = render(dom)
+  fireEvent.click(screen.getByText(/first title/i))
+  expect(getByText('first collapsed content')).toBeTruthy()
+})
+
+it('Renders the secondary accordion and clicks it', () => {
+  const { getByText } = render(<Accordion expand='first title' collapse='first collapsed content' boxStyle={true} />)
   fireEvent.click(screen.getByText(/first title/i))
   expect(getByText('first collapsed content')).toBeTruthy()
 })
 
 it('accordion is being rendered by id and has focus', () => {
   const getById = queryByAttribute.bind(null, 'id')
-  const dom = render(<Accordion expand='first title' collapse='first collapsed content' />)
-  const table = getById(dom.container, 'accordion')
+  const domElement = render(dom)
+  const table = getById(domElement.container, 'accordion')
 
   expect(table).toBeTruthy()
   table.focus()
@@ -28,8 +35,8 @@ it('accordion is being rendered by id and has focus', () => {
 
 it('accordion as focus on tab key press', () => {
   const getById = queryByAttribute.bind(null, 'id')
-  const dom = render(<Accordion expand='first title' collapse='first collapsed content' />)
-  const table = getById(dom.container, 'accordion')
+  const domElement = render(dom)
+  const table = getById(domElement.container, 'accordion')
 
   userEvent.tab()
   expect(table).toHaveFocus()
