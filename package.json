@@ -1,5 +1,5 @@
 {
-  "name": "green-components",
+  "name": "sustainable-react",
   "version": "0.0.0-semantic-release",
   "description": "Sustainable and lightweight react components based on the greenCSS style guide. SSR ready.",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Se-Gl/green-components.git"
+    "url": "git+https://github.com/Se-Gl/sustainable-react.git"
   },
   "keywords": [
     "ssr",
@@ -42,23 +42,22 @@
   "author": "SeGl",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Se-Gl/green-components/issues"
+    "url": "https://github.com/Se-Gl/sustainable-react/issues"
   },
-  "homepage": "https://github.com/Se-Gl/green-components#readme",
+  "homepage": "https://github.com/Se-Gl/sustainable-react#readme",
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@storybook/addon-actions": "^6.5.9",
-    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-essentials": "^6.4.22",
     "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",
     "@storybook/builder-webpack4": "^6.5.9",
     "@storybook/manager-webpack4": "^6.5.9",
-    "@storybook/react": "^6.5.9",
+    "@storybook/react": "^6.1.21",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.5",
-    "cypress": "^10.3.1",
     "greencss": "^1.2.1",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",

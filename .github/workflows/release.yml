@@ -18,8 +18,8 @@ jobs:
           node-version: 16.x
       - name: Install dependencies
         run: npm install --force
-      - name: Install semantic-release extra plugins
-        run: npm install --save-dev @semantic-release/changelog @semantic-release/git
+      - name: Install semantic-release extra plugins --force
+        run: npm install --save-dev @semantic-release/changelog @semantic-release/git --force
       - name: Prettier format
         run: npm run prettier:format
       - name: Prettier check
