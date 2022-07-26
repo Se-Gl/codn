@@ -1,11 +1,11 @@
 # Sustainable React Components
 
 [![Prettier](https://github.com/Se-Gl/sustainable-react/actions/workflows/prettier.yml/badge.svg)](https://github.com/Se-Gl/sustainable-react/actions/workflows/prettier.yml)
+![Coverage](https://raw.githubusercontent.com/Se-Gl/sustainable-react/main/badges/badge-statements.svg)
 [![Downloads p/week](https://badgen.net/npm/dw/sustainable-react)](https://badgen.net/npm/dw/sustainable-react)
 [![NPM version](https://badgen.net/npm/v/sustainable-react)](https://badgen.net/npm/v/sustainable-react)
 [![minified + gzip](https://badgen.net/bundlephobia/minzip/sustainable-react)](https://badgen.net/bundlephobia/minzip/sustainable-react)
 [![License](https://badgen.net/npm/license/sustainable-react)](https://badgen.net/npm/license/sustainable-react)
-[![Coverage](./badges/badge-statements.svg)]
 
 This is a sustainable React component project based on [greenCSS](https://github.com/Se-Gl/greenCSS). The components work with plain React, as well as with SSR - such as Next.js. Animations and the basic design were realised with greenCSS. greenCSS is an animated, responsive, lightweight and sustainable CSS library. It is recommended that you also use greenCSS in your project. If you don't want to, just style your modal with your own classes.
 
