@@ -82,7 +82,7 @@ You can adjust the default values listed below at any time with your values or c
 
 ### How to use the Modal
 
-![Accordion preview](./images/samples/accordion-sample.gif)
+![Modal preview](./images/samples/modal-sample.gif)
 
 #### Modal Features
 
@@ -298,11 +298,18 @@ We use semantic versioning for commit messages.
 
 For commit messages, use semantig writing:
 
-| Commit                                                                                       |      Usage       | Version |
-| -------------------------------------------------------------------------------------------- | :--------------: | ------- |
-| fix(your-change): a small change, p.e. fixed a component, readme or test                     |   Fix Release    | v.0.0.1 |
-| feat(your-change): a new feature, p.e. test suite for a component                            | Feature Release  | v.0.1.0 |
-| perf(your-change): a breaking change or hotfix \nBREAKING CHANGE: p.e. added a new component | Breaking Release | v.1.0.0 |
+| Commit                                                                                        |      Usage       | Version |
+| --------------------------------------------------------------------------------------------- | :--------------: | ------- |
+| fix(your-change): a small change, p.e. fixed a component, readme or test                      |   Fix Release    | v.0.0.1 |
+| feat(your-change): a new feature, p.e. test suite for a component                             | Feature Release  | v.0.1.0 |
+| perf(your-change): a breaking change or hotfix \n BREAKING CHANGE: p.e. added a new component | Breaking Release | v.1.0.0 |
+
+A breaking change must be written in the footer. p.e.
+
+`perf(your-change): a breaking change or hotfix
+
+BREAKING CHANGE: First line of explanation
+Other lines of explanations`
 
 Possible commit values are:
 

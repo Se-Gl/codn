@@ -1,15 +1,13 @@
 # [3.0.0](https://github.com/Se-Gl/sustainable-react/compare/v2.1.3...v3.0.0) (2022-07-26)
 
-
 ### Performance Improvements
 
-* **modal:** adjust readme ([db73b91](https://github.com/Se-Gl/sustainable-react/commit/db73b91c8803908dd9efd7ead8e4ee108da2fe60))
-
+- **modal:** adjust readme ([db73b91](https://github.com/Se-Gl/sustainable-react/commit/db73b91c8803908dd9efd7ead8e4ee108da2fe60))
 
 ### BREAKING CHANGES
 
-* **modal:** Prepared repo for v.3 modal
-Updated dependencies
+- **modal:** Prepared repo for v.3 modal
+  Updated dependencies
 
 ## [2.1.3](https://github.com/Se-Gl/sustainable-react/compare/v2.1.2...v2.1.3) (2022-07-26)
 
