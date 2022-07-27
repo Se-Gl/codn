@@ -13,7 +13,7 @@ This is a sustainable React component project based on [greenCSS](https://github
 
 - Tested with react and next.js
 - [Accordions](#how-to-use-the-accordion) [6KB]
-- [Modal](#how-to-use-the-modal) [0KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
+- [Modal](#how-to-use-the-modal) [2KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
 
 ## Installation process
 
@@ -62,7 +62,7 @@ export default function AccordionComponent() {
 
 ### Accordion Props
 
-## Props
+#### Props
 
 You can adjust the default values listed below at any time with your values or classNames. Be aware that you may have to readjust the design. Therefore, a change is only recommended if you really know what you are doing.
 
@@ -131,7 +131,7 @@ The following jsx file below is based on greenCSS. If you don't want to use it, 
 
 ```js
 import React, { useState } from 'react'
-import { Modal } from 'next-modal'
+import { Modal } from 'sustainable-react'
 
 export default function Home() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -172,7 +172,7 @@ Do you want to use your style within the modal? No problem - you can add any JSX
 
 ```js
 import React, { useState } from 'react'
-import { Modal } from 'next-modal'
+import { Modal } from 'sustainable-react'
 
 export default function Home() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -199,7 +199,7 @@ export default function Home() {
 
 #### React installation
 
-You can also use next-modal in your create-react-app. Head to your `public/index.html` file and add `<div id="modal-portal" />` below the `<div id="root"></div>`.
+You can also use the sustainable-react modal in your create-react-app. Head to your `public/index.html` file and add `<div id="modal-portal" />` below the `<div id="root"></div>`.
 
 ```jsx
 <!DOCTYPE html>
@@ -226,7 +226,7 @@ Within a page or a component, you can now add and use the Modal.
 
 ```js
 import React, { useState } from 'react'
-import { Modal } from 'next-modal'
+import { Modal } from 'sustainable-react'
 
 function App() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -276,7 +276,7 @@ export default App
 
 4. Have fun with the sustainable Next.js Modal
 
-## Props
+### Modal Props
 
 | Name                  | Default Value                                         | Description                                                                                                             |
 | --------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
