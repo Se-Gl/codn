@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/Se-Gl/sustainable-react/compare/v3.0.0...v3.0.1) (2022-07-26)
+
+
+### Bug Fixes
+
+* **readme:** adjusted readme ([65c3a4a](https://github.com/Se-Gl/sustainable-react/commit/65c3a4aca99d34a129f9a7ac82bc67d692a121ec))
+
 # [3.0.0](https://github.com/Se-Gl/sustainable-react/compare/v2.1.3...v3.0.0) (2022-07-26)
 
 ### Performance Improvements
