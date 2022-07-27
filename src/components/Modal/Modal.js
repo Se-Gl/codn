@@ -24,7 +24,7 @@ export const Modal = ({
       window.addEventListener('keydown', close)
       // CTRL + k key to open the modal
       const opener = (e) => {
-        if (e.ctrlKey && e.key === 'k') {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
           e.preventDefault()
           setToggle(true)
         }

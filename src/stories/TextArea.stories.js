@@ -1,19 +1,20 @@
 import React, { useState } from 'react'
 import { storiesOf } from '@storybook/react'
-import { Input } from '../components/Input'
+import { TextArea } from '../components/Input'
 import 'greencss/css/greencss.css'
 
-const stories = storiesOf('Input Test', module)
+const stories = storiesOf('TextArea Test', module)
 
-export const StoryInput = stories.add('Input', () => {
+export const StoryTextArea = stories.add('TextArea', () => {
   const [fullname, setFullname] = useState('')
   return (
     <div className='sans my-50px'>
-      <Input
+      <TextArea
+        autofocus={true}
+        type='text'
         maxLength={32}
         id='fullname'
-        label='Full name'
-        type='text'
+        label='Describe your story'
         value={fullname}
         setValue={setFullname}
         htmlFor='fullname'

@@ -18,7 +18,7 @@ export function Input({ required, id, label, value, setValue, htmlFor, maxLength
         className='greeninput border-none bg-white rounded-10px shadow-small-gray pl-10px text-15px h-50px w-100per border-blue-9 focus:border-1px focus:border-solid'
       />
       <label
-        className='w-100per placeholder-text pl-10px absolute top-0per right-0per bottom-0per left-0per flex items-center pointer-events-none w-100px h-50px'
+        className='w-100per placeholder-text pl-10px absolute top-0per right-0per bottom-0per left-0per flex items-center pointer-events-none w-100per h-50px'
         htmlFor={htmlFor}>
         <div className='text translate-0per transition-all transition-duration-300ms text-black-7 text-15px'>{label}</div>
       </label>

@@ -14,7 +14,7 @@ This is a sustainable React component project based on [greenCSS](https://github
 - Tested with react and next.js
 - [Accordions](#how-to-use-the-accordion) [6KB]
 - [Modal](#how-to-use-the-modal) [2KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
-- [Input](#how-to-use-the-input) [0KB]
+- [Input](#how-to-use-the-input) [4KB]
 
 ## Installation process
 
