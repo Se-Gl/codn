@@ -1,9 +1,15 @@
-## [3.1.1](https://github.com/Se-Gl/sustainable-react/compare/v3.1.0...v3.1.1) (2022-07-27)
+## [3.1.2](https://github.com/Se-Gl/sustainable-react/compare/v3.1.1...v3.1.2) (2022-07-27)
 
 
 ### Bug Fixes
 
-* **modal:** added modal tests ([5f280e8](https://github.com/Se-Gl/sustainable-react/commit/5f280e8d41b0bb031358f743eb00538757fc0785))
+* **coverage:** fixed badge not updating ([0151319](https://github.com/Se-Gl/sustainable-react/commit/0151319c5ce802fb2fb849f1033cf515fcd424f8))
+
+## [3.1.1](https://github.com/Se-Gl/sustainable-react/compare/v3.1.0...v3.1.1) (2022-07-27)
+
+### Bug Fixes
+
+- **modal:** added modal tests ([5f280e8](https://github.com/Se-Gl/sustainable-react/commit/5f280e8d41b0bb031358f743eb00538757fc0785))
 
 # [3.1.0](https://github.com/Se-Gl/sustainable-react/compare/v3.0.1...v3.1.0) (2022-07-27)
 
