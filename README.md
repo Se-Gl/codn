@@ -14,6 +14,7 @@ This is a sustainable React component project based on [greenCSS](https://github
 - Tested with react and next.js
 - [Accordions](#how-to-use-the-accordion) [6KB]
 - [Modal](#how-to-use-the-modal) [2KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
+- [Input](#how-to-use-the-input) [0KB]
 
 ## Installation process
 
@@ -291,6 +292,78 @@ export default App
 | `<Modal.Header>`      | `<Modal.Header>{children}</Modal.Header>`             | Add a header text                                                                                                       |
 | `<Modal.Body>`        | `<Modal.Body>{children}</Modal.Body>`                 | Add body elements                                                                                                       |
 | `<Modal.Footer>`      | `<Modal.Footer>{children}</Modal.Footer>`             | Add footer elements                                                                                                     |
+
+### How to use the Input
+
+![Input preview](./images/samples/input-sample.gif)
+
+#### Input Features
+
+- Modern Input UI with label transition animation
+- Input and Textarea
+
+The example below uses greenCSS for styling. [Download greenCSS](https://www.npmjs.com/package/greencss) or learn more on the [greenCSS website](https://greencss.dev). Alternatively to greenCSS you can insert your own classNames.
+The Accordion can be operated with the keyboard (Tab / Enter) as well as clicked.
+
+#### Input Example
+
+⚠️ The input fields use the "xss" package by default to protect you against XSS attacks. However, make sure that your backend sanitizes all requests as well.
+
+```js
+import React, { useState } from 'react'
+import { Input, TextArea } from 'sustainable-react'
+// if you want to use the greencss classNames:
+import 'greencss/css/greencss.css'
+
+export default function AccordionComponent() {
+  const [password, setPassword] = useState('')
+  const [message, setMessage] = useState('')
+  return (
+    <div className='sans m-auto bg-gray-10 w-60rem rounded-20px shadow-small-gray-9'>
+      <div className='w-50rem m-auto py-50px'>
+        // default Accordion
+        <Input
+          required={true}
+          id='password-field'
+          minlength={8}
+          maxLength={64}
+          value={password}
+          setValue={setPassword}
+          type='password'
+          htmlFor='password'
+          label='Your Password'
+        />
+        <TextArea
+          maxLength={500}
+          id='message'
+          label='Message'
+          type='text'
+          value={message}
+          setValue={setMessage}
+          htmlFor='message'
+        />
+      </div>
+    </div>
+  )
+}
+```
+
+### Input Props
+
+You can adjust the default values listed below at any time with your values or classNames. Be aware that you may have to readjust the design. Therefore, a change is only recommended if you really know what you are doing.
+
+| Name      | Default Value       | Description                                                  |
+| --------- | ------------------- | ------------------------------------------------------------ |
+| **label** | **The input label** | Title of your input or textarea                              |
+| required  | false               | Determine if your input is required or not                   |
+| className | ''                  | Additional classNames for your input according to your needs |
+| id        | ''                  | ID of your input/textarea                                    |
+| value     | ''                  | useState value state                                         |
+| setValue  | ''                  | useState setValue state                                      |
+| htmlFor   | ''                  | htmlFor state                                                |
+| minlength | ''                  | Minimum number of characters                                 |
+| maxLength | ''                  | Maximum number of characters                                 |
+| type      | 'text'              | Input field type                                             |
 
 ## Contribute: We Use [Semantic Release](https://github.com/semantic-release/semantic-release)
 
