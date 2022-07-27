@@ -68,7 +68,7 @@
     "babel-loader": "^8.2.5",
     "greencss": "^1.2.1",
     "husky": "^8.0.1",
-    "jest-coverage-badges": "^1.0.0",
+    "jest-coverage-badges": "^1.1.2",
     "prettier": "^2.7.1",
     "purgecss": "^4.1.3",
     "react": "^18.2.0",
