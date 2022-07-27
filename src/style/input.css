@@ -1,0 +1,10 @@
+.greeninput:focus + .placeholder-text .text,
+:not(.greeninput[value='']) + .placeholder-text .text {
+  font-size: 15px;
+  font-weight: 600;
+  color: #101010;
+  transform: translate(0, -150%);
+}
+/* input:focus {
+  border: 1px solid red;
+} */

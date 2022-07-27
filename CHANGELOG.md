@@ -1,14 +1,12 @@
 # [4.0.0](https://github.com/Se-Gl/sustainable-react/compare/v3.1.2...v4.0.0) (2022-07-27)
 
-
 ### chore
 
-* **input:** adjusted readme ([5997884](https://github.com/Se-Gl/sustainable-react/commit/599788416ae3dabac1f9655b1f715cff7d0afe26))
-
+- **input:** adjusted readme ([5997884](https://github.com/Se-Gl/sustainable-react/commit/599788416ae3dabac1f9655b1f715cff7d0afe26))
 
 ### BREAKING CHANGES
 
-* **input:** Prepared repo for v.4 input
+- **input:** Prepared repo for v.4 input
 
 ## [3.1.2](https://github.com/Se-Gl/sustainable-react/compare/v3.1.1...v3.1.2) (2022-07-27)
 

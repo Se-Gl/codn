@@ -34,7 +34,7 @@ export function Accordion({
       className={`
       ${
         boxStyle
-          ? 'cursor-pointer py-20px p-15px mb-10px transition-all transition-duration-100ms ease text-black overflow-x-hidden rounded-5px focus:outline-1px focus:outline-solid focus:text-blue text-blue border-1px border-solid border-gray-10'
+          ? 'cursor-pointer py-20px p-15px mb-10px transition-all transition-duration-100ms ease text-black overflow-x-hidden rounded-5px focus:outline-1px focus:outline-solid focus:text-blue-9 text-blue border-1px border-solid border-gray-10'
           : 'cursor-pointer py-20px p-15px transition-all transition-duration-100ms ease text-black overflow-x-hidden focus:border-bottom-width-2px focus:text-gray-10 border-bottom-width-1px border-solid border-gray-9'
       } ${className}
       `}

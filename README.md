@@ -307,7 +307,8 @@ The Accordion can be operated with the keyboard (Tab / Enter) as well as clicked
 
 #### Input Example
 
-⚠️ The input fields use the "xss" package by default to protect you against XSS attacks. However, make sure that your backend sanitizes all requests as well.
+⚠️ The width of the input field is 100%. Specify a desired width in the parent element if needed.
+⚠️ The input fields are not protected against XSS attacks.
 
 ```js
 import React, { useState } from 'react'
@@ -320,8 +321,8 @@ export default function AccordionComponent() {
   const [message, setMessage] = useState('')
   return (
     <div className='sans m-auto bg-gray-10 w-60rem rounded-20px shadow-small-gray-9'>
+      // Specify your desired width
       <div className='w-50rem m-auto py-50px'>
-        // default Accordion
         <Input
           required={true}
           id='password-field'
@@ -352,18 +353,18 @@ export default function AccordionComponent() {
 
 You can adjust the default values listed below at any time with your values or classNames. Be aware that you may have to readjust the design. Therefore, a change is only recommended if you really know what you are doing.
 
-| Name      | Default Value       | Description                                                  |
-| --------- | ------------------- | ------------------------------------------------------------ |
-| **label** | **The input label** | Title of your input or textarea                              |
-| required  | false               | Determine if your input is required or not                   |
-| className | ''                  | Additional classNames for your input according to your needs |
-| id        | ''                  | ID of your input/textarea                                    |
-| value     | ''                  | useState value state                                         |
-| setValue  | ''                  | useState setValue state                                      |
-| htmlFor   | ''                  | htmlFor state                                                |
-| minlength | ''                  | Minimum number of characters                                 |
-| maxLength | ''                  | Maximum number of characters                                 |
-| type      | 'text'              | Input field type                                             |
+| Name      | Default Value       | Description                                |
+| --------- | ------------------- | ------------------------------------------ |
+| **label** | **The input label** | Title of your input or textarea            |
+| required  | false               | Determine if your input is required or not |
+| autofocus | false               | Determine if your input is auto selected   |
+| id        | ''                  | ID of your input/textarea                  |
+| value     | ''                  | useState value state                       |
+| setValue  | ''                  | useState setValue state                    |
+| htmlFor   | ''                  | htmlFor state                              |
+| minlength | ''                  | Minimum number of characters               |
+| maxLength | ''                  | Maximum number of characters               |
+| type      | 'text'              | Input field type                           |
 
 ## Contribute: We Use [Semantic Release](https://github.com/semantic-release/semantic-release)
 
