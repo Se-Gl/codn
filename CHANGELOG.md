@@ -1,9 +1,8 @@
 # [3.1.0](https://github.com/Se-Gl/sustainable-react/compare/v3.0.1...v3.1.0) (2022-07-27)
 
-
 ### Features
 
-* **modal:** added modal component and storybook file ([eb513c0](https://github.com/Se-Gl/sustainable-react/commit/eb513c03c406fc0add7af566c924c696f01c3cd2))
+- **modal:** added modal component and storybook file ([eb513c0](https://github.com/Se-Gl/sustainable-react/commit/eb513c03c406fc0add7af566c924c696f01c3cd2))
 
 ## [3.0.1](https://github.com/Se-Gl/sustainable-react/compare/v3.0.0...v3.0.1) (2022-07-26)
 

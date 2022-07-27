@@ -5,7 +5,7 @@ import 'greencss/css/greencss.css'
 
 const stories = storiesOf('Modal Test', module)
 
-stories.add('Modal', () => {
+export const StoryModal = stories.add('Modal', () => {
   const [toggleModal, setToggleModal] = useState(false)
   return (
     <div className=''>
