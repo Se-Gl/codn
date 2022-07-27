@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/Se-Gl/sustainable-react/compare/v4.0.0...v4.1.0) (2022-07-27)
+
+
+### Features
+
+* **input:** added basic input component ([a970643](https://github.com/Se-Gl/sustainable-react/commit/a970643226b3e9939abbedec7bcccc0f34e0b37f))
+
 # [4.0.0](https://github.com/Se-Gl/sustainable-react/compare/v3.1.2...v4.0.0) (2022-07-27)
 
 ### chore
