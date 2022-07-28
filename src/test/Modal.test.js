@@ -7,7 +7,7 @@ const modalRoot = document.createElement('div')
 modalRoot.setAttribute('id', 'modal-portal')
 document.body.appendChild(modalRoot)
 
-const TestModal = ({ header, footer, onClick }) => {
+const TestModal = ({ onClick }) => {
   const [toggleModal, setToggleModal] = useState(false)
   const el = document.createElement('div')
 
