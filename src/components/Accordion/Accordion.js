@@ -7,12 +7,13 @@ export function Accordion({
   collapse = 'Your collapsed content',
   className = 'bg-white',
   boxStyle = false,
+  shadow = true,
   headerStyle = 'text-15px font-600 text-black',
   headerStyleExpanded = 'text-15px font-600 text-blue pb-10px',
   iconColorExpanded,
   iconColorCollapse,
   circleExpand = 'rotate-90deg bg-blue',
-  circleCollapse = 'shadow-small-gray-10 bg-white',
+  circleCollapse = `${shadow ? 'shadow-small-gray-9' : ''} bg-white`,
   collapseStyle = 'text-15px text-black'
 }) {
   const [active, setActive] = useState(false)

@@ -10,6 +10,7 @@ export function TextArea({
   maxLength,
   type = 'text',
   autofocus = false,
+  shadow = true,
   ariaLabel = 'textarea-field'
 }) {
   {
@@ -57,7 +58,9 @@ export function TextArea({
         type={type}
         onInput={(e) => setValue(e.currentTarget.textContent)}
         value={value}
-        className='greeninput greentextarea border-none bg-white rounded-10px shadow-small-gray pl-10px text-15px h-50px w-100per border-blue-9 focus:border-1px focus:border-solid'
+        className={`greeninput greentextarea border-none bg-white rounded-10px pl-10px text-15px h-50px w-100per border-blue-9 focus:border-1px focus:border-solid ${
+          shadow ? 'shadow-small-gray-9' : ''
+        }`}
       />
 
       <label

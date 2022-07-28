@@ -17,6 +17,7 @@ stories.add('Accordion', () => {
         />
         <Accordion className='bg-white' expand='second title' collapse='second collapsed content' />
         <Accordion
+          shadow={true}
           className='bg-white'
           key='asdfasdfasdfdsaf'
           expand='third title'

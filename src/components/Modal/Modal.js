@@ -11,7 +11,8 @@ export const Modal = ({
   backgroundAnimation = 'fade-in animation-duration-500ms animation-forwards',
   closeIcon = <CloseIcon />,
   modalContentAnimation = 'fade-in animation-duration-500ms animation-forwards',
-  useKeyInput = true
+  useKeyInput = true,
+  shadow = true
 }) => {
   useKeyInput === true &&
     useEffect(() => {
@@ -46,6 +47,7 @@ export const Modal = ({
               style={{ backgroundColor: 'rgba(16,16,16,0.75)' }}
             />
             <ModalContent
+              shadow={shadow}
               className={className}
               setToggle={setToggle}
               closeIcon={closeIcon}
@@ -60,7 +62,7 @@ export const Modal = ({
   )
 }
 
-const ModalContent = ({ children, className, modalContentAnimation, closeIcon, setToggle, ...restProps }) => {
+const ModalContent = ({ children, className, modalContentAnimation, closeIcon, shadow, setToggle, ...restProps }) => {
   const modalRef = useRef()
 
   return (
@@ -68,7 +70,9 @@ const ModalContent = ({ children, className, modalContentAnimation, closeIcon, s
       ref={modalRef}
       tabIndex={0}
       {...restProps}
-      className={`text-black overflow-x-hidden fixed left-50per top-50per rounded-20px bg-white min-w-50rem max-w-50vw sm:min-w-90vw md:min-w-90vw max-h-75vh shadow-small-gray ${className} ${modalContentAnimation}`}
+      className={`text-black overflow-x-hidden fixed left-50per top-50per rounded-20px bg-white min-w-50rem max-w-50vw sm:min-w-90vw md:min-w-90vw max-h-75vh ${
+        shadow ? 'shadow-small-black-2' : ''
+      } ${className} ${modalContentAnimation}`}
       style={{ transform: 'translate(-50%, -50%)' }}>
       {/* Close button */}
       <div

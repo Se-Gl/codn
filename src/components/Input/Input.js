@@ -14,6 +14,7 @@ export function Input({
   minLength,
   type = 'text',
   autofocus = false,
+  shadow = true,
   ariaLabel = 'input-field'
 }) {
   return (
@@ -28,7 +29,9 @@ export function Input({
         type={type}
         onChange={(e) => setValue(e.target.value)}
         value={value}
-        className='greeninput border-none bg-white rounded-10px shadow-small-gray pl-10px text-15px h-50px w-100per border-blue-9 focus:border-1px focus:border-solid'
+        className={`greeninput border-none bg-white rounded-10px pl-10px text-15px h-50px w-100per border-blue-9 focus:border-1px focus:border-solid ${
+          shadow ? 'shadow-small-gray-9' : ''
+        }`}
       />
       <label
         className='w-100per placeholder-text pl-10px absolute top-0per right-0per bottom-0per left-0per flex items-center pointer-events-none w-100per h-50px'
