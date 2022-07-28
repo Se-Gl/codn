@@ -15,6 +15,7 @@ This is a sustainable React component project based on [greenCSS](https://github
 - [Accordions](#how-to-use-the-accordion) [6KB]
 - [Modal](#how-to-use-the-modal) [2KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
 - [Input](#how-to-use-the-input) [4KB]
+- [Cookie Banner](#how-to-use-the-cookie-banner) [4KB]
 
 ## Installation process
 
@@ -366,6 +367,48 @@ You can adjust the default values listed below at any time with your values or c
 | minlength | ''                  | Minimum number of characters               |
 | maxLength | ''                  | Maximum number of characters               |
 | type      | 'text'              | Input field type                           |
+
+### How to use the Cookie Banner
+
+![cookie banner preview](./images/samples/cookie-sample.jpg)
+
+#### Cookie Banner Features
+
+- Uses localstorage to detect if a user has already accepted the cookies
+- Adjust the banner position
+
+#### Cookie Banner Example
+
+```js
+import React from 'react'
+import { CookieBanner } from 'sustainable-react'
+// if you want to use the greencss classNames:
+import 'greencss/css/greencss.css'
+
+export default function CookieComponent() {
+  return (
+    <>
+      <CookieBanner position='top-right' shadow={false} header='greenCSS uses Cookies' buttonText='I want!'>
+        <p className='text-15px text-gray'>
+          Click “Accept” to enable greenCSS to use cookies in order to personalize this site for you. In this process you agree to
+          the storing of cookies and/or data in your local storage. You agree, that we use analytics to enhance site navigation
+          and analyze site usage. It helps us to improve the UI/UX experience for you.
+        </p>
+      </CookieBanner>
+    </>
+  )
+}
+```
+
+### Cookie Banner Props
+
+| Name        | Default Value                                                                                                                                                                                                                                                     | Description                                                                                     |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| position    | 'bottom-right'                                                                                                                                                                                                                                                    | The cookie position, possible locations: 'top-left', 'top-right', 'bottom-left', 'bottom-right' |
+| shadow      | true                                                                                                                                                                                                                                                              | Set a shadow around the secondary icon                                                          |
+| header      | 'We use cookies'                                                                                                                                                                                                                                                  | Set a custom cookie title                                                                       |
+| buttonText  | 'Accept'                                                                                                                                                                                                                                                          | Set a custom cookie button text                                                                 |
+| buttonStyle | 'cursor-pointer flex py-10px px-25px min-w-50px font-bold transition-duration-200ms transition-all rounded-10px border-1px border-solid border-black my-auto text-center justify-center items-center m-auto text-15px text-black hover:bg-black hover:text-white' | Set a custom cookie button style                                                                |
 
 ## Contribute: We Use [Semantic Release](https://github.com/semantic-release/semantic-release)
 
