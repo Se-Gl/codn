@@ -15,7 +15,7 @@ This is a sustainable React component project based on [greenCSS](https://github
 - [Accordions](#how-to-use-the-accordion) [6KB]
 - [Modal](#how-to-use-the-modal) [2KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
 - [Input](#how-to-use-the-input) [4KB]
-- [Cookie Banner](#how-to-use-the-cookie-banner) [4KB]
+- [Cookie Banner](#how-to-use-the-cookie-banner) [3KB]
 
 ## Installation process
 
