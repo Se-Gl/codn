@@ -4,6 +4,7 @@ export function CookieBanner({
   header = '🍪 Our website uses cookies',
   shadow = true,
   position = 'bottom-right',
+  showButton = true,
   buttonText = 'Accept',
   buttonStyle = 'mt-25px cursor-pointer flex py-10px px-25px min-w-50px font-bold transition-duration-200ms transition-all rounded-10px border-1px border-solid border-black my-auto text-center justify-center items-center m-auto text-15px text-black hover:bg-black hover:text-white',
   children
@@ -51,11 +52,11 @@ export function CookieBanner({
                   <span className='text-blue'>Privacy Policy.</span>
                 </p>
               )}
-              <>
+              {showButton && (
                 <button onClick={cookie} id='close-cookie' className={`${buttonStyle}`}>
                   {buttonText}
                 </button>
-              </>
+              )}
             </div>
           </div>
         </div>
