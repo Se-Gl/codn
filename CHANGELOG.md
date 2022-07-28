@@ -1,9 +1,15 @@
-# [5.1.0](https://github.com/Se-Gl/sustainable-react/compare/v5.0.0...v5.1.0) (2022-07-28)
+## [5.1.1](https://github.com/Se-Gl/sustainable-react/compare/v5.1.0...v5.1.1) (2022-07-28)
 
+
+### Bug Fixes
+
+* **cookie-banner:** added conditional showButton state ([b1cef08](https://github.com/Se-Gl/sustainable-react/commit/b1cef0868f026e09415ff87a36a9fe9ff60097c0))
+
+# [5.1.0](https://github.com/Se-Gl/sustainable-react/compare/v5.0.0...v5.1.0) (2022-07-28)
 
 ### Features
 
-* **cookie-banner:** added cookie banner, adjusted readme ([3e10f2a](https://github.com/Se-Gl/sustainable-react/commit/3e10f2af5b1fd5ff1158e15983ad382b3c75d14f))
+- **cookie-banner:** added cookie banner, adjusted readme ([3e10f2a](https://github.com/Se-Gl/sustainable-react/commit/3e10f2af5b1fd5ff1158e15983ad382b3c75d14f))
 
 # [5.0.0](https://github.com/Se-Gl/sustainable-react/compare/v4.2.1...v5.0.0) (2022-07-28)
 
