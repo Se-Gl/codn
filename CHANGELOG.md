@@ -1,14 +1,12 @@
 # [5.0.0](https://github.com/Se-Gl/sustainable-react/compare/v4.2.1...v5.0.0) (2022-07-28)
 
-
 ### Features
 
-* **cookie-banner:** adjusted readme for v.5 ([3921d67](https://github.com/Se-Gl/sustainable-react/commit/3921d672d8403fd2635ccfcda0d34a82d9483af3))
-
+- **cookie-banner:** adjusted readme for v.5 ([3921d67](https://github.com/Se-Gl/sustainable-react/commit/3921d672d8403fd2635ccfcda0d34a82d9483af3))
 
 ### BREAKING CHANGES
 
-* **cookie-banner:** prepared repo for v.5 cookie banner
+- **cookie-banner:** prepared repo for v.5 cookie banner
 
 ## [4.2.1](https://github.com/Se-Gl/sustainable-react/compare/v4.2.0...v4.2.1) (2022-07-28)
 
