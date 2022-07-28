@@ -1,3 +1,10 @@
+## [4.2.1](https://github.com/Se-Gl/sustainable-react/compare/v4.2.0...v4.2.1) (2022-07-28)
+
+
+### Bug Fixes
+
+* **shadow:** set conditional shadow around elements ([65ea9cf](https://github.com/Se-Gl/sustainable-react/commit/65ea9cfcde0b70c365862f92720050c74e1d8c48))
+
 # [4.2.0](https://github.com/Se-Gl/sustainable-react/compare/v4.1.0...v4.2.0) (2022-07-27)
 
 ### Features
