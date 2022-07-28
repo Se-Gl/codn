@@ -3,11 +3,24 @@ import React from 'react'
 import '../../style/input.css'
 import '../../style/green.css'
 
-export function Input({ required, id, label, value, setValue, htmlFor, maxLength, minLength, type = 'text', autofocus = false }) {
+export function Input({
+  required,
+  id,
+  label,
+  value,
+  setValue,
+  htmlFor,
+  maxLength,
+  minLength,
+  type = 'text',
+  autofocus = false,
+  ariaLabel = 'input-field'
+}) {
   return (
     <div className='relative'>
       <input
         autoFocus={autofocus}
+        aria-label={ariaLabel}
         required={required}
         id={id}
         maxLength={maxLength}

@@ -1,9 +1,8 @@
 # [4.2.0](https://github.com/Se-Gl/sustainable-react/compare/v4.1.0...v4.2.0) (2022-07-27)
 
-
 ### Features
 
-* **textarea:** added textarea, adjusted readme, fixed input and fixed modal ([71ed6d4](https://github.com/Se-Gl/sustainable-react/commit/71ed6d4bbd42a25c73e0aabb8fdc2f3e3c840e59))
+- **textarea:** added textarea, adjusted readme, fixed input and fixed modal ([71ed6d4](https://github.com/Se-Gl/sustainable-react/commit/71ed6d4bbd42a25c73e0aabb8fdc2f3e3c840e59))
 
 # [4.1.0](https://github.com/Se-Gl/sustainable-react/compare/v4.0.0...v4.1.0) (2022-07-27)
 

@@ -1,6 +1,17 @@
 import React, { useEffect } from 'react'
 
-export function TextArea({ required, id, label, value, setValue, htmlFor, maxLength, type = 'text', autofocus = false }) {
+export function TextArea({
+  required,
+  id,
+  label,
+  value,
+  setValue,
+  htmlFor,
+  maxLength,
+  type = 'text',
+  autofocus = false,
+  ariaLabel = 'textarea-field'
+}) {
   {
     autofocus &&
       useEffect(() => {
@@ -35,6 +46,7 @@ export function TextArea({ required, id, label, value, setValue, htmlFor, maxLen
     <div className='relative'>
       <div
         tabIndex={autofocus ? 1 : 0}
+        aria-label={ariaLabel}
         autoFocus={autofocus}
         spellCheck='false'
         contentEditable='true'
