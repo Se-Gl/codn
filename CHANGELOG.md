@@ -1,3 +1,9 @@
+## [5.1.3](https://github.com/Se-Gl/sustainable-react/compare/v5.1.2...v5.1.3) (2022-07-29)
+
+### Bug Fixes
+
+- **path:** fixed main and module import/export path ([a36df45](https://github.com/Se-Gl/sustainable-react/commit/a36df456fcd61e3520071cb8997c91acc5a1c8cc))
+
 ## [5.1.2](https://github.com/Se-Gl/sustainable-react/compare/v5.1.1...v5.1.2) (2022-07-28)
 
 ### Bug Fixes
