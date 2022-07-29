@@ -1,3 +1,11 @@
+## [5.1.4](https://github.com/Se-Gl/sustainable-react/compare/v5.1.3...v5.1.4) (2022-07-29)
+
+
+### Bug Fixes
+
+* **accordion:** updated default accordion styleto match universal design ([7d57601](https://github.com/Se-Gl/sustainable-react/commit/7d57601711613b4b3f73a4cdb70a9418f077c8d4))
+* **accordion:** updated default accordion styleto match universal design ([6d253a4](https://github.com/Se-Gl/sustainable-react/commit/6d253a4eb0d00ecc2d31d8e2194d01f05d39f753))
+
 ## [5.1.3](https://github.com/Se-Gl/sustainable-react/compare/v5.1.2...v5.1.3) (2022-07-29)
 
 ### Bug Fixes
