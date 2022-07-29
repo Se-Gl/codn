@@ -2,7 +2,8 @@
   "name": "sustainable-react",
   "version": "0.0.0-semantic-release",
   "description": "Sustainable and lightweight react components based on the greenCSS style guide. SSR ready.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "prettier:check": "prettier --check .",
     "prettier:format": "prettier --write .",
