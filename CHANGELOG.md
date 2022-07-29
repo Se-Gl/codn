@@ -1,9 +1,8 @@
 ## [5.1.2](https://github.com/Se-Gl/sustainable-react/compare/v5.1.1...v5.1.2) (2022-07-28)
 
-
 ### Bug Fixes
 
-* **cookie-banner:** adjusted cookie banner size ([47f2674](https://github.com/Se-Gl/sustainable-react/commit/47f26749a237d10ea0fa9c2a41479360ccb438c7))
+- **cookie-banner:** adjusted cookie banner size ([47f2674](https://github.com/Se-Gl/sustainable-react/commit/47f26749a237d10ea0fa9c2a41479360ccb438c7))
 
 ## [5.1.1](https://github.com/Se-Gl/sustainable-react/compare/v5.1.0...v5.1.1) (2022-07-28)
 
