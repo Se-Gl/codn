@@ -9,6 +9,8 @@
 
 This is a sustainable React component project based on [greenCSS](https://github.com/Se-Gl/greenCSS). The components work with plain React, as well as with SSR - such as Next.js. Animations and the basic design were realised with greenCSS. greenCSS is an animated, responsive, lightweight and sustainable CSS library. It is recommended that you also use greenCSS in your project. If you don't want to, just style your modal with your own classes.
 
+The project is based on the [sustainable-react](https://www.npmjs.com/package/sustainable-react) package.
+
 ## Features
 
 - Tested with react and next.js

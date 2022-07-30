@@ -1,9 +1,8 @@
 ## [5.1.6](https://github.com/Se-Gl/codn/compare/v5.1.5...v5.1.6) (2022-07-30)
 
-
 ### Bug Fixes
 
-* **naming:** updated name and corresponding files ([9f5f6b1](https://github.com/Se-Gl/codn/commit/9f5f6b1d0ba0349a83c6622d7c1412a7ddacba55))
+- **naming:** updated name and corresponding files ([9f5f6b1](https://github.com/Se-Gl/codn/commit/9f5f6b1d0ba0349a83c6622d7c1412a7ddacba55))
 
 ## [5.1.5](https://github.com/Se-Gl/sustainable-react/compare/v5.1.4...v5.1.5) (2022-07-30)
 
