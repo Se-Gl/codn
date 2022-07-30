@@ -6,7 +6,7 @@ import 'greencss/css/greencss.css'
 const stories = storiesOf('Accordion Test', module)
 stories.add('Accordion', () => {
   return (
-    <div className='sans m-auto bg-gray-10 w-60rem rounded-20px shadow-small-gray-9' style={{ fontFamily: 'Inter' }}>
+    <div className='sans m-auto bg-white w-60rem rounded-20px shadow-small-gray-9' style={{ fontFamily: 'Inter' }}>
       <div className='w-50rem m-auto py-50px'>
         <Accordion
           className='bg-white rounded-5px'

@@ -1,5 +1,5 @@
 {
-  "name": "sustainable-react",
+  "name": "codn",
   "version": "0.0.0-semantic-release",
   "description": "Sustainable and lightweight react components based on the greenCSS style guide. SSR ready.",
   "main": "dist/index.js",

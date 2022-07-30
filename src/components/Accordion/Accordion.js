@@ -14,7 +14,7 @@ export function Accordion({
   iconColorCollapse,
   circleExpand = 'rotate-90deg bg-blue',
   circleCollapse = `${shadow ? 'shadow-small-gray-9' : ''} bg-white`,
-  collapseStyle = 'text-15px text-black'
+  collapseStyle = 'text-15px text-black text-left'
 }) {
   const [active, setActive] = useState(false)
 
