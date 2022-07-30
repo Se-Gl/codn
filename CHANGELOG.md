@@ -1,3 +1,10 @@
+## [5.1.5](https://github.com/Se-Gl/sustainable-react/compare/v5.1.4...v5.1.5) (2022-07-30)
+
+
+### Bug Fixes
+
+* **accordion:** adjusted collapse style, changed package name ([4d1d03e](https://github.com/Se-Gl/sustainable-react/commit/4d1d03e35484352071ef5179db34ecb52de0d947))
+
 ## [5.1.4](https://github.com/Se-Gl/sustainable-react/compare/v5.1.3...v5.1.4) (2022-07-29)
 
 ### Bug Fixes
