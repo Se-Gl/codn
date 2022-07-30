@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Se-Gl/sustainable-react.git"
+    "url": "git+https://github.com/Se-Gl/codn.git"
   },
   "keywords": [
     "ssr",
@@ -47,9 +47,9 @@
   "author": "SeGl",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Se-Gl/sustainable-react/issues"
+    "url": "https://github.com/Se-Gl/codn/issues"
   },
-  "homepage": "https://github.com/Se-Gl/sustainable-react#readme",
+  "homepage": "https://github.com/Se-Gl/codn#readme",
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@babel/preset-react": "^7.18.6",

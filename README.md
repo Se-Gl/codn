@@ -1,11 +1,11 @@
 # Sustainable React Components
 
-[![Prettier](https://github.com/Se-Gl/sustainable-react/actions/workflows/prettier.yml/badge.svg)](https://github.com/Se-Gl/sustainable-react/actions/workflows/prettier.yml)
-![Coverage](https://raw.githubusercontent.com/Se-Gl/sustainable-react/main/images/badges/badge-statements.svg)
-[![Downloads p/week](https://badgen.net/npm/dw/sustainable-react)](https://badgen.net/npm/dw/sustainable-react)
-[![NPM version](https://badgen.net/npm/v/sustainable-react)](https://badgen.net/npm/v/sustainable-react)
-[![minified + gzip](https://badgen.net/bundlephobia/minzip/sustainable-react)](https://badgen.net/bundlephobia/minzip/sustainable-react)
-[![License](https://badgen.net/npm/license/sustainable-react)](https://badgen.net/npm/license/sustainable-react)
+[![Prettier](https://github.com/Se-Gl/codn/actions/workflows/prettier.yml/badge.svg)](https://github.com/Se-Gl/codn/actions/workflows/prettier.yml)
+![Coverage](https://raw.githubusercontent.com/Se-Gl/codn/main/images/badges/badge-statements.svg)
+[![Downloads p/week](https://badgen.net/npm/dw/codn)](https://badgen.net/npm/dw/codn)
+[![NPM version](https://badgen.net/npm/v/codn)](https://badgen.net/npm/v/codn)
+[![minified + gzip](https://badgen.net/bundlephobia/minzip/codn)](https://badgen.net/bundlephobia/minzip/codn)
+[![License](https://badgen.net/npm/license/codn)](https://badgen.net/npm/license/codn)
 
 This is a sustainable React component project based on [greenCSS](https://github.com/Se-Gl/greenCSS). The components work with plain React, as well as with SSR - such as Next.js. Animations and the basic design were realised with greenCSS. greenCSS is an animated, responsive, lightweight and sustainable CSS library. It is recommended that you also use greenCSS in your project. If you don't want to, just style your modal with your own classes.
 
@@ -19,7 +19,7 @@ This is a sustainable React component project based on [greenCSS](https://github
 
 ## Installation process
 
-`npm i sustainable-react`
+`npm i codn`
 
 ### How to use the Accordion
 
@@ -38,7 +38,7 @@ The Accordion can be operated with the keyboard (Tab / Enter) as well as clicked
 
 ```js
 import React from 'react'
-import { Accordion } from 'sustainable-react'
+import { Accordion } from 'codn'
 // if you want to use the greencss classNames:
 import 'greencss/css/greencss.css'
 
@@ -132,7 +132,7 @@ The following jsx file below is based on greenCSS. If you don't want to use it, 
 
 ```js
 import React, { useState } from 'react'
-import { Modal } from 'sustainable-react'
+import { Modal } from 'codn'
 
 export default function Home() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -173,7 +173,7 @@ Do you want to use your style within the modal? No problem - you can add any JSX
 
 ```js
 import React, { useState } from 'react'
-import { Modal } from 'sustainable-react'
+import { Modal } from 'codn'
 
 export default function Home() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -200,7 +200,7 @@ export default function Home() {
 
 #### React installation
 
-You can also use the sustainable-react modal in your create-react-app. Head to your `public/index.html` file and add `<div id="modal-portal" />` below the `<div id="root"></div>`.
+You can also use the codn modal in your create-react-app. Head to your `public/index.html` file and add `<div id="modal-portal" />` below the `<div id="root"></div>`.
 
 ```jsx
 <!DOCTYPE html>
@@ -227,7 +227,7 @@ Within a page or a component, you can now add and use the Modal.
 
 ```js
 import React, { useState } from 'react'
-import { Modal } from 'sustainable-react'
+import { Modal } from 'codn'
 
 function App() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -313,7 +313,7 @@ The Accordion can be operated with the keyboard (Tab / Enter) as well as clicked
 
 ```js
 import React, { useState } from 'react'
-import { Input, TextArea } from 'sustainable-react'
+import { Input, TextArea } from 'codn'
 // if you want to use the greencss classNames:
 import 'greencss/css/greencss.css'
 
@@ -381,7 +381,7 @@ You can adjust the default values listed below at any time with your values or c
 
 ```js
 import React from 'react'
-import { CookieBanner } from 'sustainable-react'
+import { CookieBanner } from 'codn'
 // if you want to use the greencss classNames:
 import 'greencss/css/greencss.css'
 
