@@ -1,3 +1,10 @@
+## [5.1.7](https://github.com/Se-Gl/codn/compare/v5.1.6...v5.1.7) (2022-07-30)
+
+
+### Bug Fixes
+
+* **name:** added legacy repo statement ([249a342](https://github.com/Se-Gl/codn/commit/249a342a0e52540bf28c6b95f46214699f835444))
+
 ## [5.1.6](https://github.com/Se-Gl/codn/compare/v5.1.5...v5.1.6) (2022-07-30)
 
 ### Bug Fixes
