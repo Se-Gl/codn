@@ -5,3 +5,5 @@ export * from './components/Modal'
 export * from './components/Input'
 
 export * from './components/CookieBanner'
+
+export * from './components/Toast'
