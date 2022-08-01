@@ -86,7 +86,7 @@ const ToastItem = ({ item, deleteToast, duration, progressColor, setAnimation, r
           <ToastIcon type={item.type} />
         </div>
         <div className='flex-1 p-10px bg-white min-h-75px h-100per'>
-          <div className='font-600 text-15px'>{item.title}</div>
+          <div className='font-600 text-black text-15px'>{item.title}</div>
           <div className='font-400 text-gray text-12px'>{item.content}</div>
           <div className='absolute top-2per right-2per cursor-pointer' onClick={() => handleDeleteToast(item.id)}>
             <ToastIcon type='close' />

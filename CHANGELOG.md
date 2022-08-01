@@ -1,9 +1,8 @@
 ## [6.2.2](https://github.com/Se-Gl/codn/compare/v6.2.1...v6.2.2) (2022-08-01)
 
-
 ### Bug Fixes
 
-* **toast:** added toast progress bar animation class ([53c33fb](https://github.com/Se-Gl/codn/commit/53c33fbc7107c732131e11ccb68c1786156eebed))
+- **toast:** added toast progress bar animation class ([53c33fb](https://github.com/Se-Gl/codn/commit/53c33fbc7107c732131e11ccb68c1786156eebed))
 
 ## [6.2.1](https://github.com/Se-Gl/codn/compare/v6.2.0...v6.2.1) (2022-08-01)
 
