@@ -93,7 +93,7 @@ const ToastItem = ({ item, deleteToast, duration, progressColor, setAnimation, r
           </div>
         </div>
         <div
-          className={`toast_progress absolute bottom-0per left-0per h-5px w-100per ${handleProgressColor}`}
+          className={`toast_progress Toast-module_toast_progress__peRjM absolute bottom-0per left-0per h-5px w-100per ${handleProgressColor}`}
           style={{ animationDuration: `${getduration}ms`, borderBottomLeftRadius: '5px' }}
         />
       </div>
