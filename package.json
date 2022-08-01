@@ -9,7 +9,7 @@
     "prettier:format": "prettier --write .",
     "purgecss": "purgecss --config ./purgecss.config.js echo \n\n\n🏋️  Purge successful. 🏋️",
     "success-message": "echo 🚀 Everything is awesome. 🚀...🖥️  Auto checking completed, ready to deploy.🖥️...☁️  Run: git push ☁️ \n\n\n\n",
-    "pre-commit": "npm run test:badges && npm run prettier:format && npm run prettier:check  && npm run purgecss && npm run build && git add -A . && npm run success-message",
+    "pre-commit": "git pull origin && npm run test:badges && npm run prettier:format && npm run prettier:check  && npm run purgecss && npm run build && git add -A . && npm run success-message",
     "storybook": "start-storybook -p 6006",
     "build": "rollup -c",
     "build:storybook": "build-storybook",

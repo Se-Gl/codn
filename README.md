@@ -18,6 +18,7 @@ The project is based on the [sustainable-react](https://www.npmjs.com/package/su
 - [Modal](#how-to-use-the-modal) [2KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
 - [Input](#how-to-use-the-input) [4KB]
 - [Cookie Banner](#how-to-use-the-cookie-banner) [3KB]
+- [Toast](#how-to-use-the-toast) [3KB]
 
 ## Installation process
 
@@ -413,6 +414,60 @@ export default function CookieComponent() {
 | showButton   | true                                                                                                                                                                                                                                                              | Show the button which shows the footer button - if you disable it, localstorage functionality will no longer be available. |
 | buttonStyle  | 'cursor-pointer flex py-10px px-25px min-w-50px font-bold transition-duration-200ms transition-all rounded-10px border-1px border-solid border-black my-auto text-center justify-center items-center m-auto text-15px text-black hover:bg-black hover:text-white' | Set a custom cookie button style                                                                                           |
 | { children } | Our website use cookies. By continuing, we assume your permission to deploy cookies as detailed in our Privacy Policy.                                                                                                                                            | Set a custom body content                                                                                                  |
+
+### How to use the Toast
+
+![Toast preview](./images/samples/toast-sample.webp)
+
+#### Toast Features
+
+- Tested with react and next.js
+- Lightweight toast / pop-up component
+- Progress bar
+
+The example below uses greenCSS for styling. [Download greenCSS](https://www.npmjs.com/package/greencss) or learn more on the [greenCSS website](https://greencss.dev). Alternatively to greenCSS you can insert your own classNames.
+
+#### Toast Example
+
+```js
+import React from 'react'
+import { Toast } from 'codn'
+// if you want to use the greencss classNames:
+import 'greencss/css/greencss.css'
+
+export default function ToastComponent() {
+  return (
+    <>
+      <Toast
+        timeout={2000}
+        position='top-left'
+        icon='info'
+        iconClass='bg-yellow-10'
+        progressColor='from-yellow-10 to-yellow gradient-to-right'
+        show={true}
+        header='This is your info toast 😅'
+        text='This is a sample text. this is a sample text. this is a sample text. '
+      />
+    </>
+  )
+}
+```
+
+### Toast Props
+
+You can adjust the default values listed below at any time with your values or classNames. Be aware that you may have to readjust the design. Therefore, a change is only recommended if you really know what you are doing.
+
+| Name          | Default Value          | Description                               |
+| ------------- | ---------------------- | ----------------------------------------- |
+| show          | false                  | Render or hide the toast component        |
+| position      | 'top-right'            | Position of the toast                     |
+| timeout       | 5000                   | Time to display the toast - in ms         |
+| header        | 'enter your title'     | Title of your toast                       |
+| text          | 'codn toast component' | Description of your toast                 |
+| icon          | 'success'              | Choose between "success", "info", "error" |
+| iconClass     | 'bg-blue-8'            | Background color for the icon             |
+| progressColor | 'bg-blue'              | Background color for the progress bar     |
+| shadow        | 'shadow-small-black'   | Display a shadow class                    |
 
 ## Contribute: We Use [Semantic Release](https://github.com/semantic-release/semantic-release)
 

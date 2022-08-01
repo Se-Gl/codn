@@ -1,10 +1,9 @@
 # [6.1.0](https://github.com/Se-Gl/codn/compare/v6.0.0...v6.1.0) (2022-08-01)
 
-
 ### Features
 
-* **test:** added toast tests ([faf065e](https://github.com/Se-Gl/codn/commit/faf065e4efaf9b1c757a2933e636dc2e4b656e22))
-* **test:** added toast tests ([c0d33ab](https://github.com/Se-Gl/codn/commit/c0d33abb57bfb045473c3c8823c1e904651fcbcc))
+- **test:** added toast tests ([faf065e](https://github.com/Se-Gl/codn/commit/faf065e4efaf9b1c757a2933e636dc2e4b656e22))
+- **test:** added toast tests ([c0d33ab](https://github.com/Se-Gl/codn/commit/c0d33abb57bfb045473c3c8823c1e904651fcbcc))
 
 # [6.0.0](https://github.com/Se-Gl/codn/compare/v5.1.7...v6.0.0) (2022-07-31)
 

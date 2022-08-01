@@ -5,13 +5,13 @@ import ErrorIcon from './icon/Error'
 import SuccessIcon from './icon/Success'
 
 export const Toast = ({
-  text = 'test',
-  header = 'header',
+  text = 'codn toast component',
+  header = 'enter your title',
   icon = 'success',
   iconClass = 'bg-blue-8',
   progressColor = 'bg-blue',
   show = false,
-  shadow = true,
+  shadow = 'shadow-small-black',
   position = 'top-right',
   timeout = 5000,
   ariaLabel = 'toast-notification'
@@ -59,9 +59,7 @@ export const Toast = ({
     <div
       aria-label={ariaLabel}
       style={{ zIndex: 99999 }}
-      className={`fixed m-10px min-h-50px w-35rem rounded-5px bg-white opacity-0per ${
-        shadow && 'shadow-small-black'
-      } ${checkPosition} ${setAnimation}`}
+      className={`fixed m-10px min-h-50px w-35rem rounded-5px bg-white opacity-0per ${shadow} ${checkPosition} ${setAnimation}`}
       ref={toastRef}>
       <div className='flex'>
         <button role='button' className='absolute top-0per right-0per mr-5px mt-5px' onClick={handleClose}>
