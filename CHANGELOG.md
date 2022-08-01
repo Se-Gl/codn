@@ -1,3 +1,10 @@
+# [6.2.0](https://github.com/Se-Gl/codn/compare/v6.1.0...v6.2.0) (2022-08-01)
+
+
+### Features
+
+* **readme:** added toast explanation ([825389f](https://github.com/Se-Gl/codn/commit/825389f987a07732361db77d09ebde8391d99b7e))
+
 # [6.1.0](https://github.com/Se-Gl/codn/compare/v6.0.0...v6.1.0) (2022-08-01)
 
 ### Features
