@@ -1,7 +1,14 @@
 import React, { useCallback } from 'react'
 import ToastItem from './ToastItem'
 
-export const Toast = ({ toastList, setToastList, progressColor, duration = 5000, position = 'top-right' }) => {
+export const Toast = ({
+  toastList,
+  setToastList,
+  progressColor,
+  duration = 5000,
+  position = 'top-right',
+  shadow = 'shadow-small-gray-5'
+}) => {
   const deleteToast = useCallback(
     (id) => {
       setToastList((prevState) => {
@@ -33,6 +40,7 @@ export const Toast = ({ toastList, setToastList, progressColor, duration = 5000,
               setAnimation={setAnimation}
               removeAnimation={removeAnimation}
               progressColor={progressColor}
+              shadow={shadow}
             />
           ))}
         </>

@@ -23,7 +23,7 @@ const ToastIcon = ({ type }) => {
   }
 }
 
-const ToastItem = ({ item, deleteToast, duration, progressColor, setAnimation, removeAnimation }) => {
+const ToastItem = ({ item, deleteToast, duration, progressColor, setAnimation, removeAnimation, shadow }) => {
   const itemRef = useRef()
   const getduration = duration
   const classNames = useMemo(() => {
@@ -79,7 +79,7 @@ const ToastItem = ({ item, deleteToast, duration, progressColor, setAnimation, r
   return (
     <div
       data-testid='toast-notification'
-      className={`relative block w-35rem rounded-5px overflow-hidden shadow-small-gray-5 ${classNames} animation-duration-300ms animation-forwards opacity-100per my-10px min-h-75px`}
+      className={`relative block w-35rem rounded-5px overflow-hidden ${classNames} animation-duration-300ms animation-forwards opacity-100per my-10px min-h-75px ${shadow}`}
       ref={itemRef}>
       <div className={`flex min-h-75px h-100per items-center justify-center ${handleIconBackground}`}>
         <div className={`flex min-w-30px px-10px rounded-left-radius-5px `}>
