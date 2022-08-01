@@ -13,7 +13,8 @@ export const Toast = ({
   show = false,
   shadow = true,
   position = 'top-right',
-  timeout = 5000
+  timeout = 5000,
+  ariaLabel = 'toast-notification'
 }) => {
   const toastRef = useRef('')
 
@@ -56,13 +57,14 @@ export const Toast = ({
 
   return show ? (
     <div
+      aria-label={ariaLabel}
       style={{ zIndex: 99999 }}
       className={`fixed m-10px min-h-50px w-35rem rounded-5px bg-white opacity-0per ${
         shadow && 'shadow-small-black'
       } ${checkPosition} ${setAnimation}`}
       ref={toastRef}>
       <div className='flex'>
-        <button className='absolute top-0per right-0per mr-5px mt-5px' onClick={handleClose}>
+        <button role='button' className='absolute top-0per right-0per mr-5px mt-5px' onClick={handleClose}>
           <CloseIcon width='20' height='20' />
         </button>
         <div className={`flex justify-content items-center min-w-30px px-10px rounded-left-radius-5px ${iconClass}`}>

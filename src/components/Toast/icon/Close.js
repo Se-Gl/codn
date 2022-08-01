@@ -2,7 +2,13 @@ import React from 'react'
 
 function CloseIcon({ width = '50', height = '50', className = 'fill-black' }) {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width={width} height={height} fill='none' viewBox='0 0 50 50'>
+    <svg
+      xmlns='http://www.w3.org/2000/svg'
+      width={width}
+      height={height}
+      fill='none'
+      viewBox='0 0 50 50'
+      aria-label='close-toast'>
       <mask id='mask0_516351_1648' style={{ maskType: 'alpha' }} width='25' height='25' x='12' y='12' maskUnits='userSpaceOnUse'>
         <path
           className={className}
