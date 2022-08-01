@@ -1,3 +1,10 @@
+## [6.2.3](https://github.com/Se-Gl/codn/compare/v6.2.2...v6.2.3) (2022-08-01)
+
+
+### Bug Fixes
+
+* **toast:** updated toast header color ([900aeb5](https://github.com/Se-Gl/codn/commit/900aeb582490bd5169da77be0f3bea331dee2df1))
+
 ## [6.2.2](https://github.com/Se-Gl/codn/compare/v6.2.1...v6.2.2) (2022-08-01)
 
 ### Bug Fixes
