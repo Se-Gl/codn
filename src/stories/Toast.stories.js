@@ -70,11 +70,11 @@
 //   )
 // })
 
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { storiesOf } from '@storybook/react'
 
 import 'greencss/css/greencss.css'
-import { Toast, handleShowToast } from '../components/Toast'
+import { handleShowToast, Toast } from '../components/Toast'
 
 const stories = storiesOf('Toast Test', module)
 stories.add('Toast', () => {

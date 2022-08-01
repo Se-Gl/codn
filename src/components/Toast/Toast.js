@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback } from 'react'
 import ToastItem from './ToastItem'
 
 export const Toast = ({ toastList, setToastList, progressColor, duration = 5000, position = 'top-right' }) => {
@@ -39,14 +39,4 @@ export const Toast = ({ toastList, setToastList, progressColor, duration = 5000,
       ) : null}
     </div>
   )
-}
-
-export const handleShowToast = (type, title, content, setToastList) => {
-  const newToast = {
-    id: new Date().getTime(),
-    type,
-    title,
-    content
-  }
-  setToastList((prevState) => [...prevState, newToast])
 }
