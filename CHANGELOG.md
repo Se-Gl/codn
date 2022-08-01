@@ -1,3 +1,10 @@
+## [6.2.1](https://github.com/Se-Gl/codn/compare/v6.2.0...v6.2.1) (2022-08-01)
+
+
+### Bug Fixes
+
+* **toast:** created independant handleShowToast file ([2e86874](https://github.com/Se-Gl/codn/commit/2e86874bb668841674ebbaa388cf2806ec030b65))
+
 # [6.2.0](https://github.com/Se-Gl/codn/compare/v6.1.0...v6.2.0) (2022-08-01)
 
 ### Features
