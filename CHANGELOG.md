@@ -1,3 +1,13 @@
+# [6.0.0](https://github.com/Se-Gl/codn/compare/v5.1.7...v6.0.0) (2022-07-31)
+
+### Features
+
+- **toast:** react toasts ([34ceb6a](https://github.com/Se-Gl/codn/commit/34ceb6af10bb76f861cad9dc347614c84c4ec2fa))
+
+### BREAKING CHANGES
+
+- **toast:** added teact toast with progress bar
+
 ## [5.1.7](https://github.com/Se-Gl/codn/compare/v5.1.6...v5.1.7) (2022-07-30)
 
 ### Bug Fixes

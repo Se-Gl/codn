@@ -48,7 +48,7 @@ it('Closes the toast', () => {
 
 jest.setTimeout(1001)
 
-it('Does not show the toast after 1000ms', () => {
+it('Does not show the toast after 1001ms', () => {
   const { utils } = render(dom)
 
   expect(utils).not.toBeTruthy()
