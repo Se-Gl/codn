@@ -7,3 +7,5 @@ export * from './components/Input'
 export * from './components/CookieBanner'
 
 export * from './components/Toast'
+
+export * from './components/Captcha'

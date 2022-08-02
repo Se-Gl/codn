@@ -1,9 +1,8 @@
 ## [6.2.4](https://github.com/Se-Gl/codn/compare/v6.2.3...v6.2.4) (2022-08-01)
 
-
 ### Bug Fixes
 
-* **toast:** added conditional shadow ([1596665](https://github.com/Se-Gl/codn/commit/1596665342954ba7025d28c5d8ec494897846af6))
+- **toast:** added conditional shadow ([1596665](https://github.com/Se-Gl/codn/commit/1596665342954ba7025d28c5d8ec494897846af6))
 
 ## [6.2.3](https://github.com/Se-Gl/codn/compare/v6.2.2...v6.2.3) (2022-08-01)
 
