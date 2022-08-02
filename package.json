@@ -15,7 +15,7 @@
     "build:storybook": "build-storybook",
     "prepare": "husky install",
     "test": "react-scripts test --setupFiles",
-    "test:coverage": "npm test -- --coverage --ci --watchAll=false --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/**/*.stories.js",
+    "test:coverage": "npm test -- --coverage --ci --watchAll=false --collectCoverageFrom=src/**/*.js --collectCoverageFrom=!src/**/*.stories.js --collectCoverageFrom=!src/components/Captcha/*.js",
     "test:badges": "npm run test:coverage && jest-coverage-badges --output '../../images/badges"
   },
   "repository": {
