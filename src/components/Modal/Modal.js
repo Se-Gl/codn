@@ -44,7 +44,7 @@ export const Modal = ({
             <div
               onClick={setToggle.bind(this, false)}
               className={`fixed left-0per top-0per bottom-0per right-0per backdrop-blur-30px text-black ${backgroundAnimation}`}
-              style={{ backgroundColor: 'rgba(16,16,16,0.75)' }}
+              style={{ backgroundColor: 'rgba(16,16,16,0.5)' }}
             />
             <ModalContent
               shadow={shadow}
