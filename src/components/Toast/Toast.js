@@ -28,7 +28,7 @@ export const Toast = ({
   let removeAnimation = position.includes('right') ? 'fade-out-right' : 'fade-out-left'
 
   return (
-    <div className={`fixed m-10px ${checkPosition}`} style={{ zIndex: 99999 }}>
+    <div className={`fixed z-99 m-10px ${checkPosition}`} style={{ zIndex: 99999 }}>
       {toastList.length > 0 ? (
         <>
           {toastList.map((item) => (
