@@ -1,3 +1,15 @@
+# [7.0.0](https://github.com/Se-Gl/codn/compare/v6.2.4...v7.0.0) (2022-08-02)
+
+
+### Features
+
+* **captcha:** added captcha component ([f8174c7](https://github.com/Se-Gl/codn/commit/f8174c74c5a2b90fd1d0b3d2a2fca7c695ed9fd7))
+
+
+### BREAKING CHANGES
+
+* **captcha:** init basic captcha component
+
 ## [6.2.4](https://github.com/Se-Gl/codn/compare/v6.2.3...v6.2.4) (2022-08-01)
 
 ### Bug Fixes
