@@ -1,4 +1,4 @@
-import { useEffect, useRef, forwardRef, useImperativeHandle } from 'react'
+import React, { useEffect, useRef, forwardRef, useImperativeHandle } from 'react'
 
 export const Captcha = forwardRef(
   (
