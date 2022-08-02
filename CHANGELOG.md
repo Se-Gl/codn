@@ -1,3 +1,10 @@
+## [7.0.1](https://github.com/Se-Gl/codn/compare/v7.0.0...v7.0.1) (2022-08-02)
+
+
+### Bug Fixes
+
+* **captcha:** added correct import ([177113f](https://github.com/Se-Gl/codn/commit/177113f7589a17e9a989f684255f533be0636f94))
+
 # [7.0.0](https://github.com/Se-Gl/codn/compare/v6.2.4...v7.0.0) (2022-08-02)
 
 ### Features
