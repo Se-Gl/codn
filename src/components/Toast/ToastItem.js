@@ -74,7 +74,7 @@ const ToastItem = ({ item, deleteToast, duration, progressColor, setAnimation, r
     (item.type == 'info' && 'bg-blue') ||
     (item.type == 'warning' && 'bg-orange')
 
-  console.log(progressColor)
+  // console.log(progressColor)
 
   return (
     <div

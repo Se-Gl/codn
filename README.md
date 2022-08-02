@@ -14,11 +14,12 @@ The project is based on the [sustainable-react](https://www.npmjs.com/package/su
 ## Features
 
 - Tested with react and next.js
-- [Accordions](#how-to-use-the-accordion) [6KB]
-- [Modal](#how-to-use-the-modal) [2KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
-- [Input](#how-to-use-the-input) [4KB]
-- [Cookie Banner](#how-to-use-the-cookie-banner) [3KB]
-- [Toast](#how-to-use-the-toast) [3KB]
+- [Accordions](#how-to-use-the-accordion) [minified ~ 6KB]
+- [Modal](#how-to-use-the-modal) [minified ~ 2KB] | [Next.js Modal](#nextjs-installation) | [React Modal](#react-installation)
+- [Input](#how-to-use-the-input) [minified ~ 4KB]
+- [Cookie Banner](#how-to-use-the-cookie-banner) [minified ~ 3KB]
+- [Toast](#how-to-use-the-toast) [minified ~ 5KB]
+- [Captcha](#how-to-use-the-captcha) [minified ~ 2KB]
 
 ## Installation process
 
@@ -430,23 +431,25 @@ The example below uses greenCSS for styling. [Download greenCSS](https://www.npm
 #### Toast Example
 
 ```js
-import React from 'react'
-import { Toast } from 'codn'
+import React, { useState } from 'react'
+import { handleShowToast, Toast } from 'codn'
+
 // if you want to use the greencss classNames:
 import 'greencss/css/greencss.css'
 
 export default function ToastComponent() {
+  const [toastList, setToastList] = useState([])
   return (
     <>
+      <button onClick={() => handleShowToast('info', 'Success', 'You did it! codn toast works successfully!', setToastList)}>
+        Show warning
+      </button>
       <Toast
-        timeout={2000}
-        position='top-left'
-        icon='info'
-        iconClass='bg-yellow-10'
-        progressColor='from-yellow-10 to-yellow gradient-to-right'
-        show={true}
-        header='This is your info toast 😅'
-        text='This is a sample text. this is a sample text. this is a sample text. '
+        toastList={toastList}
+        setToastList={setToastList}
+        duration={5000}
+        position='top-right'
+        progressColor='from-blue to-magenta gradient-to-left'
       />
     </>
   )
@@ -457,17 +460,78 @@ export default function ToastComponent() {
 
 You can adjust the default values listed below at any time with your values or classNames. Be aware that you may have to readjust the design. Therefore, a change is only recommended if you really know what you are doing.
 
-| Name          | Default Value          | Description                               |
-| ------------- | ---------------------- | ----------------------------------------- |
-| show          | false                  | Render or hide the toast component        |
-| position      | 'top-right'            | Position of the toast                     |
-| timeout       | 5000                   | Time to display the toast - in ms         |
-| header        | 'enter your title'     | Title of your toast                       |
-| text          | 'codn toast component' | Description of your toast                 |
-| icon          | 'success'              | Choose between "success", "info", "error" |
-| iconClass     | 'bg-blue-8'            | Background color for the icon             |
-| progressColor | 'bg-blue'              | Background color for the progress bar     |
-| shadow        | 'shadow-small-black'   | Display a shadow class                    |
+| Name              | Default Value         | Description                                                                                                                                                             |
+| ----------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| handleShowToast() | N/A                   | Function to set the toast type, title, description and the setToastList hook.                                                                                           |
+| toastList         | toastList             | useState hook call                                                                                                                                                      |
+| setToastList      | setToastList          | useState hook call                                                                                                                                                      |
+| duration          | 5000                  | Time to display the toast - in ms                                                                                                                                       |
+| progressColor     | ''                    | Default color for info ('bg-blue'), warning 'bg-orange', success ('bg-greencss') or error ('bg-red'). Set your own background-color class if you want to use your color |
+| position          | 'top-right'           | Possible positions: 'top-left', 'top-right','bottom-left','bottom-right'                                                                                                |
+| shadow            | 'shadow-small-gray-5' | Display a shadow class (gray-5)                                                                                                                                         |
+
+⚠️ The `handleShowToast()` must be configured for the toast component to work! This function takes 4 parameters:
+
+- The type: 'success', 'error', 'info' or 'warning'
+- The title of your toast
+- The description of your toast
+- The useState hook
+
+```js
+  const [toastList, setToastList] = useState([])
+  ...
+<button onClick={() => handleShowToast('info', 'Information Header', 'You did it! The info text appears!', setToastList)}>
+  Show information toast
+</button>
+...
+<Toast
+...
+/>
+```
+
+### How to use the Captcha
+
+![Toast preview](./images/samples/captcha-sample.webp)
+
+#### Captcha Features
+
+- Tested with React and Next.js (SSR)
+- Based on canvas
+- Generates a secure and sustainable captcha component on the client side.
+- No unnecessary API request are made to a backend.
+- No data is collected. The privacy of your users is secured.
+
+The example below uses greenCSS for styling. [Download greenCSS](https://www.npmjs.com/package/greencss) or learn more on the [greenCSS website](https://greencss.dev). Alternatively to greenCSS you can insert your own classNames.
+
+#### Captcha Example
+
+```js
+import React, { useState } from 'react'
+import { Captcha } from 'codn'
+
+export default function CaptchaComponent() {
+  const [captcha, setCaptcha] = useState()
+  // check your console!
+  console.log(captcha)
+  return (
+    <>
+      <Captcha setWord={setCaptcha} />
+    </>
+  )
+}
+```
+
+### Captcha Props
+
+You can adjust the default values listed below at any time with your values or classNames. Be aware that you may have to readjust the design. Therefore, a change is only recommended if you really know what you are doing.
+
+| Name               | Default Value                                                            | Description                                                  |
+| ------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| setWord            | null                                                                     | useState hook call to verify the user input with the captcha |
+| numberOfCharacters | 5                                                                        | Default number of captcha characters                         |
+| backgroundColor    | '#101010'                                                                | Default hex color of the canva's background color            |
+| fontColor          | '#f0eef5'                                                                | Default hex color of the canva's text color                  |
+| charset            | 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!=?+\*%&' | Default charset regex                                        |
 
 ## Contribute: We Use [Semantic Release](https://github.com/semantic-release/semantic-release)
 
