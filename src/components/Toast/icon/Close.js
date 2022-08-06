@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../../../dist/style/green.css'
 
 function CloseIcon({ width = '50', height = '50', className = 'fill-black' }) {
   return (

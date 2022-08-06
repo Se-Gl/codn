@@ -1,7 +1,6 @@
 import React from 'react'
-
-// import '../../style/input.css'
-// import '../../style/green.css'
+import '../../../dist/style/input.css'
+import '../../../dist/style/green.css'
 
 export function Input({
   required,

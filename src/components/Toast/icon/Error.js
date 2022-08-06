@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../../../dist/style/green.css'
 
 function ErrorIcon({ width = '28', height = '28' }) {
   return (

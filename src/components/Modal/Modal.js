@@ -1,7 +1,7 @@
 import { createPortal } from 'react-dom'
 import React, { useEffect, useRef } from 'react'
 import CloseIcon from './CloseIcon'
-// import '../../style/green.css'
+import '../../../dist/style/green.css'
 
 export const Modal = ({
   children,

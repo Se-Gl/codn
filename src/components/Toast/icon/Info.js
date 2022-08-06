@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../../../dist/style/green.css'
 
 function InfoIcon({ width = '50', height = '50' }) {
   return (
