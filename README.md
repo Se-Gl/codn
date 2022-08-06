@@ -43,6 +43,8 @@ The Accordion can be operated with the keyboard (Tab / Enter) as well as clicked
 ```js
 import React from 'react'
 import { Accordion } from 'codn'
+// import the styles
+import 'codn/dist/style/green.css'
 // if you want to use the greencss classNames:
 import 'greencss/css/greencss.css'
 
@@ -137,6 +139,8 @@ The following jsx file below is based on greenCSS. If you don't want to use it, 
 ```js
 import React, { useState } from 'react'
 import { Modal } from 'codn'
+// import the styles
+import 'codn/dist/style/green.css'
 
 export default function Home() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -178,6 +182,8 @@ Do you want to use your style within the modal? No problem - you can add any JSX
 ```js
 import React, { useState } from 'react'
 import { Modal } from 'codn'
+// import the styles
+import 'codn/dist/style/green.css'
 
 export default function Home() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -232,6 +238,8 @@ Within a page or a component, you can now add and use the Modal.
 ```js
 import React, { useState } from 'react'
 import { Modal } from 'codn'
+// import the styles
+import 'codn/dist/style/green.css'
 
 function App() {
   const [toggleModal, setToggleModal] = useState(false)
@@ -318,6 +326,9 @@ The Accordion can be operated with the keyboard (Tab / Enter) as well as clicked
 ```js
 import React, { useState } from 'react'
 import { Input, TextArea } from 'codn'
+// import the styles
+import 'codn/dist/style/green.css'
+import 'codn/dist/style/input.css'
 // if you want to use the greencss classNames:
 import 'greencss/css/greencss.css'
 
@@ -386,6 +397,8 @@ You can adjust the default values listed below at any time with your values or c
 ```js
 import React from 'react'
 import { CookieBanner } from 'codn'
+// import the styles
+import 'codn/dist/style/green.css'
 // if you want to use the greencss classNames:
 import 'greencss/css/greencss.css'
 
@@ -433,7 +446,8 @@ The example below uses greenCSS for styling. [Download greenCSS](https://www.npm
 ```js
 import React, { useState } from 'react'
 import { handleShowToast, Toast } from 'codn'
-
+// import the styles
+import 'codn/dist/style/green.css'
 // if you want to use the greencss classNames:
 import 'greencss/css/greencss.css'
 
@@ -508,6 +522,8 @@ The example below uses greenCSS for styling. [Download greenCSS](https://www.npm
 ```js
 import React, { useState } from 'react'
 import { Captcha } from 'codn'
+// import the styles
+import 'codn/dist/style/green.css'
 
 export default function CaptchaComponent() {
   const [captcha, setCaptcha] = useState()
