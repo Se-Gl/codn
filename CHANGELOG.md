@@ -1,9 +1,8 @@
 ## [7.0.4](https://github.com/Se-Gl/codn/compare/v7.0.3...v7.0.4) (2022-08-06)
 
-
 ### Performance Improvements
 
-* **css:** adjusted purgecss blocklist ([032fce5](https://github.com/Se-Gl/codn/commit/032fce59b48acc6b55245630c903ada7d532bb83))
+- **css:** adjusted purgecss blocklist ([032fce5](https://github.com/Se-Gl/codn/commit/032fce59b48acc6b55245630c903ada7d532bb83))
 
 ## [7.0.3](https://github.com/Se-Gl/codn/compare/v7.0.2...v7.0.3) (2022-08-02)
 

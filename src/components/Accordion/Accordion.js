@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { BoxPlusIcon, PlusIcon } from './Icons'
-import '../../style/green.css'
+// import '../../style/green.css'
 
 export function Accordion({
   expand = 'Your title',

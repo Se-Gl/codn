@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['src/**/*.{js,jsx,ts,tsx}'],
+  content: ['src/components/**/*.{js,jsx,ts,tsx}'],
   css: ['./node_modules/greencss/css/minified/greencss.css'],
   keyframes: true,
   defaultExtractor: (content) => content.match(/[A-Za-z0-9-_:/]+/g) || [],
@@ -24,5 +24,5 @@ module.exports = {
     'container',
     'sans'
   ],
-  output: './src/style/green.css'
+  output: './dist/style/green.css'
 }

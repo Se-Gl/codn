@@ -1,0 +1,1 @@
+.greeninput:focus+.placeholder-text .text,:not(.greeninput[value=''])+.placeholder-text .text{font-size:15px;font-weight:600;color:#101010;transform:translate(0,-150%)}.greentextarea{-moz-appearance:textfield-multiline;-webkit-appearance:textarea;min-height:100px;overflow-x:hidden;resize:vertical;padding-top:15px}
