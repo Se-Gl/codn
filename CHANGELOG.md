@@ -1,9 +1,8 @@
 ## [7.0.3](https://github.com/Se-Gl/codn/compare/v7.0.2...v7.0.3) (2022-08-02)
 
-
 ### Bug Fixes
 
-* **layer:** added z-index to toast and modal ([303c317](https://github.com/Se-Gl/codn/commit/303c3175e1f9e2c1125993dc3c98b7947b8a45b5))
+- **layer:** added z-index to toast and modal ([303c317](https://github.com/Se-Gl/codn/commit/303c3175e1f9e2c1125993dc3c98b7947b8a45b5))
 
 ## [7.0.2](https://github.com/Se-Gl/codn/compare/v7.0.1...v7.0.2) (2022-08-02)
 
