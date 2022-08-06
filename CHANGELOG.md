@@ -1,3 +1,10 @@
+## [7.0.5](https://github.com/Se-Gl/codn/compare/v7.0.4...v7.0.5) (2022-08-06)
+
+
+### Performance Improvements
+
+* **css:** deleted css imports in files ([3eb6f73](https://github.com/Se-Gl/codn/commit/3eb6f73b26dd196c7fd68273fd3ebc26134ee359))
+
 ## [7.0.4](https://github.com/Se-Gl/codn/compare/v7.0.3...v7.0.4) (2022-08-06)
 
 ### Performance Improvements
