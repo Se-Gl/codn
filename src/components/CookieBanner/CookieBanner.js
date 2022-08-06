@@ -6,7 +6,7 @@ export function CookieBanner({
   position = 'bottom-right',
   showButton = true,
   buttonText = 'Accept',
-  buttonStyle = 'mt-25px cursor-pointer flex py-10px px-25px min-w-50px font-bold transition-duration-200ms transition-all rounded-10px border-1px border-solid border-black my-auto text-center justify-center items-center m-auto text-15px text-black hover:bg-black hover:text-white',
+  buttonStyle = 'mt-25px cursor-pointer flex py-10px px-25px min-w-50px font-bold transition-duration-200ms transition-all rounded-10px border-1px border-solid border-black my-auto text-center justify-center items-center mx-auto my-auto text-15px text-black hover:bg-black hover:text-white',
   children
 }) {
   const [cookieBanner, setCookieBanner] = useState(true)
