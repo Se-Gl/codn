@@ -1,9 +1,8 @@
 ## [7.0.9](https://github.com/Se-Gl/codn/compare/v7.0.8...v7.0.9) (2022-08-07)
 
-
 ### Bug Fixes
 
-* **modal:** added modal icon color class name ([a756fe8](https://github.com/Se-Gl/codn/commit/a756fe85552faf6ad98d0a7e76db90ad036885c3))
+- **modal:** added modal icon color class name ([a756fe8](https://github.com/Se-Gl/codn/commit/a756fe85552faf6ad98d0a7e76db90ad036885c3))
 
 ## [7.0.8](https://github.com/Se-Gl/codn/compare/v7.0.7...v7.0.8) (2022-08-07)
 

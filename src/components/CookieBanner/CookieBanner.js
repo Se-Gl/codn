@@ -8,6 +8,7 @@ export function CookieBanner({
   showButton = true,
   buttonText = 'Accept',
   buttonStyle = 'mt-25px cursor-pointer flex py-10px px-25px min-w-50px font-bold transition-duration-200ms transition-all rounded-10px border-1px border-solid border-black my-auto text-center justify-center items-center mx-auto my-auto text-15px text-black hover:bg-black hover:text-white',
+  className,
   children
 }) {
   const [cookieBanner, setCookieBanner] = useState(true)
@@ -40,7 +41,7 @@ export function CookieBanner({
         <div
           className={`fixed m-20px max-h-50vh w-50vw sm:w-auto md:w-auto bg-white z-99 rounded-10px overflow-scroll ${
             shadow ? 'shadow-small-gray' : ''
-          } ${position && checkPosition}`}
+          } ${position && checkPosition} ${className}`}
           id='cookie-banner'>
           <div className='flex h-100per sm:block p-20px'>
             <div className='m-auto'>
