@@ -1,3 +1,10 @@
+## [7.0.10](https://github.com/Se-Gl/codn/compare/v7.0.9...v7.0.10) (2022-08-07)
+
+
+### Bug Fixes
+
+* **cookie:** added custom cookie classnames ([92802b9](https://github.com/Se-Gl/codn/commit/92802b98bf3be84ac3c43a7cbf24cb1352ff0c53))
+
 ## [7.0.9](https://github.com/Se-Gl/codn/compare/v7.0.8...v7.0.9) (2022-08-07)
 
 ### Bug Fixes
