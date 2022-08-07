@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '../../../dist/style/green.css'
+// import '../../../dist/style/green.css'
 
 export function CookieBanner({
   header = '🍪 Our website uses cookies',

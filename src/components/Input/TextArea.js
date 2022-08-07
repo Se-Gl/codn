@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
-import '../../../dist/style/input.css'
-import '../../../dist/style/green.css'
+// import '../../../dist/style/input.css'
+// import '../../../dist/style/green.css'
 
 export function TextArea({
   required,

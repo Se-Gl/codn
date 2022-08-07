@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react'
 import ToastItem from './ToastItem'
-import '../../../dist/style/green.css'
+// import '../../../dist/style/green.css'
 
 export const Toast = ({
   toastList,

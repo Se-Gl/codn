@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../dist/style/green.css'
+// import '../../../dist/style/green.css'
 
 export function BoxPlusIcon({
   width = '11',
