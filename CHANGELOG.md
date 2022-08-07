@@ -1,3 +1,10 @@
+## [7.0.8](https://github.com/Se-Gl/codn/compare/v7.0.7...v7.0.8) (2022-08-07)
+
+
+### Bug Fixes
+
+* **modal:** deleted max modal size ([e945cf2](https://github.com/Se-Gl/codn/commit/e945cf2218cf37cf2db0be988f1df85e3e8c8181))
+
 ## [7.0.7](https://github.com/Se-Gl/codn/compare/v7.0.6...v7.0.7) (2022-08-07)
 
 ### Bug Fixes
