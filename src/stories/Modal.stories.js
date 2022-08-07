@@ -18,7 +18,7 @@ export const StoryModal = stories.add('Modal', () => {
 
       {/* Modal */}
       <div className='relative z-2'>
-        <Modal toggle={toggleModal} setToggle={setToggleModal} modalPadding={false}>
+        <Modal toggle={toggleModal} setToggle={setToggleModal}>
           <Modal.Header className='sans font-900 text-30px fade-in-left animation-duration-500ms animation-forwards'>
             <h3>👋 Hi, I'm your modal</h3>
           </Modal.Header>

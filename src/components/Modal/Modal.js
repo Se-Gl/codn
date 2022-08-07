@@ -81,7 +81,7 @@ const ModalContent = ({
       ref={modalRef}
       tabIndex={0}
       {...restProps}
-      className={`fixed left-50per top-50per z-98 text-black overflow-x-hidden rounded-20px bg-white min-w-50rem max-w-50vw sm:min-w-90vw md:min-w-90vw max-h-75vh ${
+      className={`fixed left-50per top-50per z-98 text-black overflow-x-hidden rounded-20px bg-white min-w-50rem sm:min-w-90vw md:min-w-90vw ${
         shadow ? 'shadow-small-black-2' : ''
       } ${className} ${modalContentAnimation}`}
       style={{ transform: 'translate(-50%, -50%)' }}>
