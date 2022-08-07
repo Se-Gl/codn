@@ -1,3 +1,10 @@
+## [7.0.7](https://github.com/Se-Gl/codn/compare/v7.0.6...v7.0.7) (2022-08-07)
+
+
+### Bug Fixes
+
+* **modal:** added conditional padding for modal, adjusted zindex of close modal icon ([02026bb](https://github.com/Se-Gl/codn/commit/02026bb5acc918d80f9dc637646246d2ac7beb73))
+
 ## [7.0.6](https://github.com/Se-Gl/codn/compare/v7.0.5...v7.0.6) (2022-08-06)
 
 ### Bug Fixes
