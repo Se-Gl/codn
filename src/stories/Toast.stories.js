@@ -81,17 +81,32 @@ stories.add('Toast', () => {
   const [toastList, setToastList] = useState([])
 
   return (
-    <div className='' style={{ fontFamily: 'Inter' }}>
-      <button onClick={() => handleShowToast('info', 'Success', 'You did it! codn toast works successfully!', setToastList)}>
-        Show warning
-      </button>
-      <Toast
-        toastList={toastList}
-        setToastList={setToastList}
-        duration={50000}
-        position='top-right'
-        progressColor='from-blue to-magenta gradient-to-left'
-      />
-    </div>
+    <>
+      <div className='min-h-100vh bg-red-7' style={{ fontFamily: 'Inter' }}>
+        <button onClick={() => handleShowToast('info', 'Success', 'You did it! codn toast works successfully!', setToastList)}>
+          Show info
+        </button>
+        <Toast
+          toastList={toastList}
+          setToastList={setToastList}
+          duration={50000}
+          position='top-right'
+          progressColor='from-blue to-magenta gradient-to-left'
+        />
+      </div>
+
+      <div
+        className='h-100vh py-10rem sm:my-0px md:my-0px sm:m-10px md:m-10px opacity-100per fade-in-bottom animate animation-forwards transition-all transition-duration-300ms transition-delay-700ms'
+        style={{ fontFamily: 'Inter' }}>
+        <button onClick={() => handleShowToast('error', 'Error', 'ufff!', setToastList)}>Show error</button>
+        <Toast
+          toastList={toastList}
+          setToastList={setToastList}
+          duration={50000}
+          position='top-right'
+          progressColor='from-blue to-magenta gradient-to-left'
+        />
+      </div>
+    </>
   )
 })

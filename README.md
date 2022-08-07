@@ -297,6 +297,7 @@ export default App
 | setToggle             | -                                                     | useState toggle setToggle                                                                                               |
 | useKeyInput           | true                                                  | Use the default key inputs "CTRL + k" to open the modal and "ESC" to close the modal                                    |
 | shadow                | true                                                  | Set a black shadow modal content                                                                                        |
+| modalPadding          | true                                                  | Apply a 20px padding around the modal                                                                                   |
 | className             | ""                                                    | Use your own className to style the modal content                                                                       |
 | backgroundAnimation   | 'fade-in animation-duration-500ms animation-forwards' | Add your custom animation className in order to overwrite the default fade in animation for the background              |
 | modalContentAnimation | 'fade-in animation-duration-500ms animation-forwards' | Add your custom animation className in order to overwrite the default fade in animation for the modal content component |

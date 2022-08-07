@@ -1,9 +1,8 @@
 ## [7.0.6](https://github.com/Se-Gl/codn/compare/v7.0.5...v7.0.6) (2022-08-06)
 
-
 ### Bug Fixes
 
-* **css:** re-added css imports in components ([5ad9486](https://github.com/Se-Gl/codn/commit/5ad948608c612b6d12351763d8f018f73f9400bc))
+- **css:** re-added css imports in components ([5ad9486](https://github.com/Se-Gl/codn/commit/5ad948608c612b6d12351763d8f018f73f9400bc))
 
 ## [7.0.5](https://github.com/Se-Gl/codn/compare/v7.0.4...v7.0.5) (2022-08-06)
 

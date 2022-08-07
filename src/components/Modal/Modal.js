@@ -12,7 +12,8 @@ export const Modal = ({
   closeIcon = <CloseIcon />,
   modalContentAnimation = 'fade-in animation-duration-500ms animation-forwards',
   useKeyInput = true,
-  shadow = true
+  shadow = true,
+  modalPadding = true
 }) => {
   useKeyInput === true &&
     useEffect(() => {
@@ -51,6 +52,7 @@ export const Modal = ({
               className={className}
               setToggle={setToggle}
               closeIcon={closeIcon}
+              modalPadding={modalPadding}
               modalContentAnimation={modalContentAnimation}>
               {children}
             </ModalContent>
@@ -62,7 +64,16 @@ export const Modal = ({
   )
 }
 
-const ModalContent = ({ children, className, modalContentAnimation, closeIcon, shadow, setToggle, ...restProps }) => {
+const ModalContent = ({
+  children,
+  className,
+  modalContentAnimation,
+  closeIcon,
+  shadow,
+  setToggle,
+  modalPadding,
+  ...restProps
+}) => {
   const modalRef = useRef()
 
   return (
@@ -80,11 +91,11 @@ const ModalContent = ({ children, className, modalContentAnimation, closeIcon, s
         tabIndex={0}
         onKeyPress={setToggle.bind(this, false)}
         onClick={setToggle.bind(this, false)}
-        className='absolute z-1 focus:outline-1px focus:outline-solid focus:outline-gray text-gray-9'
-        style={{ top: '20px', right: '20px' }}>
+        className='absolute focus:outline-1px focus:outline-solid focus:outline-gray text-gray-9'
+        style={{ top: '20px', right: '20px', zIndex: '99999' }}>
         {closeIcon}
       </div>
-      <div className='p-20px'>{children}</div>
+      <div className={modalPadding ? 'p-20px' : ''}>{children}</div>
     </div>
   )
 }
