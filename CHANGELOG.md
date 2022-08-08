@@ -1,3 +1,10 @@
+## [7.0.12](https://github.com/Se-Gl/codn/compare/v7.0.11...v7.0.12) (2022-08-08)
+
+
+### Bug Fixes
+
+* **toast:** re-added toast progress animation ([8c5756b](https://github.com/Se-Gl/codn/commit/8c5756bcdf71821dcc37b579fea916b2043b0112))
+
 ## [7.0.11](https://github.com/Se-Gl/codn/compare/v7.0.10...v7.0.11) (2022-08-07)
 
 ### Bug Fixes
