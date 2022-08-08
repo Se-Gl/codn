@@ -4,7 +4,7 @@ import InfoIcon from './icon/Info'
 import ErrorIcon from './icon/Error'
 import SuccessIcon from './icon/Success'
 import WarningIcon from './icon/Warning'
-// import './Toast.module.css'
+import './Toast.module.css'
 
 const ToastIcon = ({ type }) => {
   switch (type) {
