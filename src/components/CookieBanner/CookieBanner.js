@@ -39,7 +39,7 @@ export function CookieBanner({
     <>
       {cookieBanner && (
         <div
-          className={`fixed m-20px max-h-50vh w-50vw sm:w-auto md:w-auto bg-white z-99 rounded-10px overflow-scroll ${
+          className={`fixed m-20px max-h-50vh w-50vw sm:w-auto md:w-auto bg-white z-99 rounded-10px overflow-y-auto overflow-x-hidden ${
             shadow ? 'shadow-small-gray' : ''
           } ${position && checkPosition} ${className}`}
           id='cookie-banner'>
