@@ -1,3 +1,10 @@
+## [7.0.13](https://github.com/Se-Gl/codn/compare/v7.0.12...v7.0.13) (2022-08-23)
+
+
+### Bug Fixes
+
+* **cookie:** fixed overflow behaviour for chrome browsers ([81a3596](https://github.com/Se-Gl/codn/commit/81a3596190b853872fd0dbc09b3d1636b3297339))
+
 ## [7.0.12](https://github.com/Se-Gl/codn/compare/v7.0.11...v7.0.12) (2022-08-08)
 
 ### Bug Fixes
