@@ -3,6 +3,8 @@ import React from 'react'
 // import '../../../dist/style/green.css'
 
 export function Input({
+  custom,
+  name,
   required,
   id,
   label,
@@ -19,6 +21,8 @@ export function Input({
   return (
     <div className='relative'>
       <input
+        {...custom}
+        name={name}
         autoFocus={autofocus}
         aria-label={ariaLabel}
         required={required}
