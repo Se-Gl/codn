@@ -1,3 +1,10 @@
+## [7.0.15](https://github.com/Se-Gl/codn/compare/v7.0.14...v7.0.15) (2022-10-30)
+
+
+### Bug Fixes
+
+* **accordion:** added conditional border style ([273b98f](https://github.com/Se-Gl/codn/commit/273b98fa746899523591f2d6e3d5e4aeb4de43a5))
+
 ## [7.0.14](https://github.com/Se-Gl/codn/compare/v7.0.13...v7.0.14) (2022-10-22)
 
 ### Bug Fixes
