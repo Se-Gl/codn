@@ -14,7 +14,8 @@ export function Accordion({
   iconColorCollapse,
   circleExpand = 'rotate-90deg bg-blue',
   circleCollapse = `${shadow ? 'shadow-small-gray-9' : ''} bg-white`,
-  collapseStyle = 'text-15px text-black text-left'
+  collapseStyle = 'text-15px text-black text-left',
+  border = 'focus:outline-1px focus:outline-solid focus:text-blue-9 text-blue-9 border-1px border-solid border-gray-10'
 }) {
   const [active, setActive] = useState(false)
 
@@ -32,7 +33,7 @@ export function Accordion({
       id='accordion'
       role='button'
       tabIndex={0}
-      className={`cursor-pointer p-15px transition-all transition-duration-100ms ease overflow-x-hidden rounded-5px focus:outline-1px focus:outline-solid focus:text-blue-9 text-blue-9 border-1px border-solid border-gray-10 ${
+      className={`cursor-pointer p-15px transition-all transition-duration-100ms ease overflow-x-hidden rounded-5px ${border} ${
         boxStyle ? 'py-20px mb-10px' : ''
       } ${className}
       `}

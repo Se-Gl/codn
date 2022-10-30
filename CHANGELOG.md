@@ -1,9 +1,8 @@
 ## [7.0.14](https://github.com/Se-Gl/codn/compare/v7.0.13...v7.0.14) (2022-10-22)
 
-
 ### Bug Fixes
 
-* **input:** added name and custom parameters ([59ac3b9](https://github.com/Se-Gl/codn/commit/59ac3b9636f2075266c26e2c794e5d2749805101))
+- **input:** added name and custom parameters ([59ac3b9](https://github.com/Se-Gl/codn/commit/59ac3b9636f2075266c26e2c794e5d2749805101))
 
 ## [7.0.13](https://github.com/Se-Gl/codn/compare/v7.0.12...v7.0.13) (2022-08-23)
 

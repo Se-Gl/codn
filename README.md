@@ -72,20 +72,21 @@ export default function AccordionComponent() {
 
 You can adjust the default values listed below at any time with your values or classNames. Be aware that you may have to readjust the design. Therefore, a change is only recommended if you really know what you are doing.
 
-| Name                | Default Value                          | Description                                                  |
-| ------------------- | -------------------------------------- | ------------------------------------------------------------ |
-| **expand**          | **'Your title'**                       | Your title                                                   |
-| **collapse**        | **'Your collapsed content'**           | Your collapsed content                                       |
-| className           | 'bg-white'                             | Use your own className to style the Accordion                |
-| boxStyle            | false                                  | Secondary Accordion design                                   |
-| shadow              | true                                   | Set a shadow around the secondary icon                       |
-| headerStyle         | 'text-15px font-600 text-black'        | Default "expand" title design                                |
-| collapseStyle       | 'text-15px text-black'                 | Default text style for collapsed content                     |
-| headerStyleExpanded | 'text-15px font-600 text-blue pb-10px' | Default "expand" title design if expanded                    |
-| iconColorCollapse   | 'stroke-black'                         | Default icon className if collapsed                          |
-| iconColorExpanded   | 'stroke-blue'                          | Default icon color if expanded                               |
-| circleCollapse      | 'shadow-small-gray-10 bg-white'        | Default circle color around the _boxStyle icon_ if collapsed |
-| circleExpand        | 'rotate-90deg bg-blue'                 | Default circle color around the _boxStyle icon_ if expanded  |
+| Name                | Default Value                                                                                                            | Description                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| **expand**          | **'Your title'**                                                                                                         | Your title                                                   |
+| **collapse**        | **'Your collapsed content'**                                                                                             | Your collapsed content                                       |
+| className           | 'bg-white'                                                                                                               | Use your own className to style the Accordion                |
+| boxStyle            | false                                                                                                                    | Secondary Accordion design                                   |
+| shadow              | true                                                                                                                     | Set a shadow around the secondary icon                       |
+| headerStyle         | 'text-15px font-600 text-black'                                                                                          | Default "expand" title design                                |
+| collapseStyle       | 'text-15px text-black'                                                                                                   | Default text style for collapsed content                     |
+| headerStyleExpanded | 'text-15px font-600 text-blue pb-10px'                                                                                   | Default "expand" title design if expanded                    |
+| iconColorCollapse   | 'stroke-black'                                                                                                           | Default icon className if collapsed                          |
+| iconColorExpanded   | 'stroke-blue'                                                                                                            | Default icon color if expanded                               |
+| circleCollapse      | 'shadow-small-gray-10 bg-white'                                                                                          | Default circle color around the _boxStyle icon_ if collapsed |
+| circleExpand        | 'rotate-90deg bg-blue'                                                                                                   | Default circle color around the _boxStyle icon_ if expanded  |
+| border              | ' border = 'focus:outline-1px focus:outline-solid focus:text-blue-9 text-blue-9 border-1px border-solid border-gray-10'' | Default border style                                         |
 
 ### How to use the Modal
 
@@ -373,6 +374,7 @@ You can adjust the default values listed below at any time with your values or c
 | Name      | Default Value       | Description                                |
 | --------- | ------------------- | ------------------------------------------ |
 | **label** | **The input label** | Title of your input or textarea            |
+| custom    | ""                  | Add custom input related properties        |
 | required  | false               | Determine if your input is required or not |
 | autofocus | false               | Determine if your input is auto selected   |
 | shadow    | true                | Set a gray-9 (#eaeaea) shadow              |
@@ -383,6 +385,7 @@ You can adjust the default values listed below at any time with your values or c
 | minlength | ''                  | Minimum number of characters               |
 | maxLength | ''                  | Maximum number of characters               |
 | type      | 'text'              | Input field type                           |
+| name      | ''                  | Input field name                           |
 
 ### How to use the Cookie Banner
 
